@@ -10,4 +10,4 @@ An advanced studio course in digital photography that builds technical proficien
 
 A yearlong capstone studio course for final-year photography students developing a sustained research-creation project through proposals, affinities presentations, mid-term and final critiques, gallery visits, and individual mentorship. The fall semester covers the first half of the 6-credit course, culminating in a resolved body of work with written and verbal articulation of conceptual aims.
 
-*Taught at Concordia University, Fall 2024 – Winter 2025 (September 3, 2024 – April 12, 2025).*
+*Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Fall 2024 – Winter 2025 (September 3 – April 12, 2025).*
