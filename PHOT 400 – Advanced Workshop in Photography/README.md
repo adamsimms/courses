@@ -2,11 +2,6 @@
 
 > Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · September 3, 2024 – April 12, 2025 · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
-## Instructor
-
-**Adam Simms**  
-adam.simms@concordia.ca
-
 ## Teaching Assistant
 
 **Mathieu Gagnon**  
