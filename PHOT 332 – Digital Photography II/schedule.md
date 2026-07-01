@@ -18,7 +18,7 @@ Please note that the following schedule is subject to change.
 - Presentation schedule
 - Assignment #2 overview
 
-**Materials:** [Slides](https://www.figma.com/slides/htNx05voJUXGdzI5q5SIgB/PHOT-332-%3E-Class-%232?node-id=8-638&t=QWtfbfBPxEPgzHKc-1) · [Example RAW files](assets/raw/)
+**Materials:** [Slides](https://www.figma.com/slides/htNx05voJUXGdzI5q5SIgB/PHOT-332-%3E-Class-%232?node-id=8-638&t=QWtfbfBPxEPgzHKc-1) · [Example RAW files](assets/samples/)
 
 ---
 
