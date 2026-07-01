@@ -45,9 +45,3 @@ See also [course assets](assets/README.md) — readings, sample files, and manua
 ## Student Services
 
 See [shared student services](../_shared/student-services.md).
-
----
-
-## Important Contacts
-
-See [shared important contacts](../_shared/important-contacts.md).
