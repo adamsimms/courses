@@ -4,7 +4,7 @@
 
 An advanced studio course in digital photography that builds technical proficiency in Photoshop, scanning, printing, and digital asset management while developing a personalized artistic vision. Students complete three major assignments — group reading presentations, a printed triptych exploring composite and AI image-making, and an online final project — alongside weekly workshops and critical discussions on photography's role in digital culture.
 
-*Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Winter 2025 (January 17 – April 11, 2025).*
+*Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Winter 2025.*
 
 ## [PHOT 400 – Advanced Workshop in Photography](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/)
 
