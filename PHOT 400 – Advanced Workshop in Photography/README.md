@@ -1,6 +1,6 @@
 # PHOT 400 – Advanced Workshop in Photography
 
-> Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · September 3, 2024 – April 12, 2025 · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
+> Fall 2024 – Winter 2025: Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · September 3, 2024 – April 12, 2025 · Photography program in the Studio Arts Department at Concordia University
 
 ## Teaching Assistant
 
