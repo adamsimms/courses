@@ -1,5 +1,7 @@
 # PHOT 332 – Digital Photography II
 
+> Taught by Adam Simms with Michelle Caron-Pawlowsky · January 17 – April 11, 2025 · Concordia University
+
 ## Instructor
 
 **Adam Simms**

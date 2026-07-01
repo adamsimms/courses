@@ -1,5 +1,7 @@
 # PHOT 400 – Advanced Workshop in Photography
 
+> Taught by Adam Simms with Mathieu Gagnon · September 3, 2024 – April 12, 2025 · Concordia University
+
 ## Instructor
 
 **Adam Simms**  
