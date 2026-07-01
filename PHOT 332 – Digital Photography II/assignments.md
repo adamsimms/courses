@@ -24,12 +24,12 @@ In small groups, students will present and moderate an engaging in-class discuss
 
 | Reading | Presenters | Week |
 |---------|------------|------|
-| *Nonhuman Photography* by Joanna Zylinska | Nastaran, Mégane, Isimbi | Week 3 |
-| *Artificial Aesthetics* by Lev Manovich + Emanuele Arielli | Lou, Laurence, Maggie | Week 4 |
-| *Duty Free Art* by Hito Steyerl | Kai Yun, Perla, Samuel | Week 5 |
-| *Immediacy or, The Style of Too Late Capitalism* by Anna Kornbluh | Maya, Simaiya, Guillaume | Week 8 |
-| *Disordered Attention* by Claire Bishop | Simone, Annisa, Rowan | Week 9 |
-| *The Perception Machine* by Joanna Zylinska | Félix, Akiva | Week 10 |
+| [*Nonhuman Photography*](https://drive.google.com/file/d/16FgB3KFmEbJk-qijPoK5U7UlpbQXwDoI/view?usp=sharing) by Joanna Zylinska | Nastaran, Mégane, Isimbi | Week 3 |
+| [*Artificial Aesthetics*](https://drive.google.com/file/d/18RfJrptWOBpQTKj_Tw2JWfVKlwmpcyh0/view?usp=sharing) by Lev Manovich + Emanuele Arielli | Lou, Laurence, Maggie | Week 4 |
+| [*Duty Free Art*](https://drive.google.com/file/d/1QJqQ1S4J7ejzmJZC6iTiOCBZu_6KR2WV/view?usp=sharing) by Hito Steyerl | Kai Yun, Perla, Samuel | Week 5 |
+| [*Immediacy or, The Style of Too Late Capitalism*](https://drive.google.com/file/d/1Z9N_ioXo5RoaNFuIfjfOYi8KRl8b5yYk/view?usp=sharing) by Anna Kornbluh | Maya, Simaiya, Guillaume | Week 8 |
+| [*Disordered Attention*](https://drive.google.com/file/d/1I5KGhizFQcHanxbBDFXRoOjXaWGzg_pt/view?usp=drive_link) by Claire Bishop | Simone, Annisa, Rowan | Week 9 |
+| [*The Perception Machine*](https://drive.google.com/file/d/1gx-dqOhfKolLktYiyIkUXXvKtMLu6hQu/view?usp=sharing) by Joanna Zylinska | Félix, Akiva | Week 10 |
 
 ### Evaluation Criteria
 
