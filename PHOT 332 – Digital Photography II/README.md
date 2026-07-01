@@ -2,9 +2,9 @@
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
-> Winter 2025: Taught by Adam Simms with Teaching Assistant Michelle Caron-Pawlowsky · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
-
 ## Course Details
+
+> Winter 2025: Taught by Adam Simms with Teaching Assistant Michelle Caron-Pawlowsky · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks

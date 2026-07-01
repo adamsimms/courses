@@ -2,9 +2,9 @@
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
-> Fall 2025 – Winter 2025: Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
-
 ## Course Details
+
+> Fall 2025 – Winter 2025: Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
 - **Credits:** 6-credit course (approximately 8 months / two semesters)
 - **Time:** Thursdays, 1:30–5:30 PM
