@@ -28,4 +28,4 @@ When updating an existing offering for a new term, consider archiving the previo
 
 ## Cloning with assets
 
-Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if large files are missing. To refresh PHOT 332 assets from Google Drive: `./scripts/sync-phot332-assets.sh`
+Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if large files are missing.
