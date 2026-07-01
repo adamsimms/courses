@@ -1,10 +1,10 @@
 # Photography Courses — Adam Simms
 
-Canonical course materials for photography courses I have developed, designed, and taught. This repository is a reference archive in Markdown—for colleagues, past and future students, and anyone looking for ideas when building a course outline. It is also my own working source when I teach these courses again. Live course sites will migrate here over time.
+Canonical course materials for photography courses I have developed, designed, and taught. This repository is a reference archive in Markdown—for colleagues, past and future students, and anyone looking for ideas when building a course outline. It is also my own working source when I teach these courses again.
 
 ## About
 
-[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) is Artist-in-Residence in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
+[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) has taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
 
 ## Courses
 
