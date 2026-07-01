@@ -1,3 +1,0 @@
-Concordia University is located on unceded Indigenous lands. The Kanien'kehá:ka Nation is recognized as the custodians of the lands and waters on which we gather today. Tiohtià:ke/Montréal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. We respect the continued connections with the past, present and future in our ongoing relationships with Indigenous and other peoples within the Montreal community.
-
-This territorial acknowledgement and resources were created by Concordia University's Indigenous Directions Leadership Group.

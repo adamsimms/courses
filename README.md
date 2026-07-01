@@ -8,7 +8,7 @@ Canonical course materials for photography courses I have developed, designed, a
 
 ## Courses
 
-Each course has a syllabus, assignments, schedule, and resources. Shared policies and student services live in [`_shared/`](./_shared/).
+Each course has a syllabus, assignments, schedule, and resources — all self-contained in its course folder.
 
 ---
 
@@ -30,7 +30,7 @@ A yearlong capstone studio course for final-year photography students developing
 
 ## Adding a Course
 
-Copy [`_template/`](./_template/) to a new folder and fill in the placeholders. Shared content (land acknowledgement, grading scale, rules, student services) is linked from the template — update it once in `_shared/` when policies change.
+Copy [`_template/`](./_template/) to a new folder and fill in the placeholders. Each course folder is self-contained — policies, grading scale, and student services are included in the syllabus and resources pages.
 
 When updating an existing offering for a new term, consider archiving the previous term in a subfolder (e.g. `2025-winter/`) rather than overwriting in place.
 
