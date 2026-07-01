@@ -1,8 +1,8 @@
 # Courses
 
-Open course materials for undergraduate photography courses taught by [Adam Simms](https://github.com/adamsimms) in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
+Open course materials for undergraduate photography courses taught by [Adam Simms](https://github.com/adamsimms).
 
-This repository collects syllabi, weekly schedules, assignment briefs, and curated resources for each course. Materials are maintained as Markdown for easy reading on GitHub and straightforward updates from semester to semester.
+This repository collects syllabi, weekly schedules, assignment briefs, and curated resources for each course. Materials are maintained as Markdown for easy reading on GitHub and straightforward updates from semester to semester. Institution and semester details are noted on each course page.
 
 **Repository:** [github.com/adamsimms/courses](https://github.com/adamsimms/courses)
 
