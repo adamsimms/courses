@@ -99,7 +99,7 @@ Please note that the following schedule is subject to change.
 ## Week 10 (EV 5.709)
 
 - Displaying images online: Part II
-- **Reading #6 presentation:** [*The Perception Machine*](assets/readings/perception-machine.pdf) by Joanna Zylinska · [Reading PDF](assets/readings/perception-machine-reading.pdf)
+- **Reading #6 presentation:** [*The Perception Machine*](assets/readings/perception-machine.pdf) by Joanna Zylinska · [Reading PDF](assets/readings/digital-divide.pdf)
 
 **Materials:** [Slides](https://www.figma.com/slides/UElCJ5YHQIOrl0A4rfqJET/PHOT-332--%3E-Week-%2310?node-id=4001-20&t=cil2srAqBWFtnpHH-1)
 
