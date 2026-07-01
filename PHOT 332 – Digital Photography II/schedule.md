@@ -112,7 +112,7 @@ Please note that the following schedule is subject to change.
 
 ## Week 12 (EV 3.635)
 
-- [Final presentations and critiques: Group A](https://docs.google.com/document/d/1teGGOgHkP4u10yf0Ypmrj2cbufnLwSrUj_BVC_qFLdw/edit?usp=sharing)
+- Final presentations and critiques: Group A
 
 *Assignment #3 due during class.*
 
@@ -120,7 +120,7 @@ Please note that the following schedule is subject to change.
 
 ## Week 13 (EV 3.635)
 
-- [Final presentations and critiques: Group B](https://docs.google.com/document/d/1teGGOgHkP4u10yf0Ypmrj2cbufnLwSrUj_BVC_qFLdw/edit?usp=sharing)
+- Final presentations and critiques: Group B
 
 *Assignment #3 due during class.*
 
