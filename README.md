@@ -6,4 +6,4 @@ An advanced studio course in digital photography that builds technical proficien
 
 ## [PHOT 400 – Advanced Workshop in Photography](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/)
 
-A yearlong capstone studio course for final-year photography students developing a sustained research-creation project through proposals, affinities presentations, mid-term and final critiques, gallery visits, and individual mentorship. The fall semester covers the first half of the 6-credit course, culminating in a resolved body of work with written and verbal articulation of conceptual aims.
+A yearlong capstone studio course for final-year photography students developing a sustained research-creation project through proposals, affinities presentations, mid-term and final critiques, gallery visits, and individual mentorship. The first term covers the first half of the 6-credit course, culminating in a resolved body of work with written and verbal articulation of conceptual aims.

@@ -4,7 +4,7 @@ Students will be required to present in-progress work, engage in group critiques
 
 Students must respect their assigned presentation slots. Attendance at all critiques is mandatory; failure to attend will negatively impact the participation grade, potentially leading to a failing mark.
 
-*Grading weights below apply to the fall semester (50% of the total course grade).*
+*Grading weights below apply to the first term (50% of the total course grade).*
 
 ---
 
@@ -55,7 +55,7 @@ Students present the work of other artists with whom they have affinities. See [
 
 ---
 
-## Fall Semester Total: 50%
+## Term Total: 50%
 
 | Assignment | Weight |
 |------------|--------|
