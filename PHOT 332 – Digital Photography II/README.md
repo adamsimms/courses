@@ -102,9 +102,11 @@ Students must bear the cost of all photographic materials needed to complete the
 
 **F:** Poor/Failure — Work is incomplete and/or unsatisfactory.
 
-| A+ | A | A- | B+ | B | B- | C+ | C | C- | D+ | D | D- | F |
-|----|---|---|----|---|----|----|----|----|----|---|---|---|
-| 90–100 | 85–89 | 80–84 | 77–79 | 73–76 | 70–72 | 67–69 | 63–66 | 60–62 | 57–59 | 53–56 | 50–52 | 0–49 |
+A+ 90–100 · A 85–89 · A- 80–84  
+B+ 77–79 · B 73–76 · B- 70–72  
+C+ 67–69 · C 63–66 · C- 60–62  
+D+ 57–59 · D 53–56 · D- 50–52  
+F 0–49
 
 Please refer to the [Concordia Academic Calendar, section 16.3.3](https://www.concordia.ca/academics/undergraduate/calendar.html) for additional information on the grading system.
 
