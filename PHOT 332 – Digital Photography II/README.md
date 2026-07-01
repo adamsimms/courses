@@ -1,6 +1,6 @@
 # PHOT 332 – Digital Photography II
 
-> Winter 2025: Taught by Adam Simms with Teaching Assistant Michelle Caron-Pawlowsky · January 17 – April 11, 2025 · Photography program in the Studio Arts Department at Concordia University
+> Winter 2025: Taught by Adam Simms with Teaching Assistant Michelle Caron-Pawlowsky · Photography program in the Studio Arts Department at Concordia University
 
 ## Course Details
 
