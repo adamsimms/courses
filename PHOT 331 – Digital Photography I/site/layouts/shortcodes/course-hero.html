@@ -1,0 +1,13 @@
+<figure class="course-hero">
+  <img
+    src="{{ (.Site.Params.socialImage | default "images/colorchecker.jpg") | relURL }}"
+    alt="{{ .Site.Params.hero.alt }}"
+    width="2000"
+    height="2000"
+    loading="eager"
+    decoding="async"
+  >
+  <figcaption>
+    <em><strong><a href="{{ .Site.Params.hero.creditUrl }}" target="_blank" rel="noopener">{{ .Site.Params.hero.caption }}</a></strong></em>
+  </figcaption>
+</figure>
