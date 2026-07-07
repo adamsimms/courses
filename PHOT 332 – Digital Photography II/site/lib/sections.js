@@ -1,12 +1,18 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { siteUrl } from "../../../scripts/site-path.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const courseDir = path.resolve(__dirname, "../..");
 const courseFolder = path.basename(courseDir);
+const hugoSiteDir = path.resolve(__dirname, "..");
 const GITHUB_RAW_BASE = "https://github.com/adamsimms/syllabi/raw/main";
 const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
+
+function internalUrl(relativePath) {
+  return siteUrl(hugoSiteDir, relativePath);
+}
 
 export function stripRepoNav(content) {
   return content
@@ -77,7 +83,7 @@ export function rewriteMdLinksMarkdown(text) {
       target = hugoAnchorMap[hash];
       hash = "";
     }
-    return `[${label}](${target}${hash || ""})`;
+    return `[${label}](${internalUrl(target)}${hash || ""})`;
   });
 
   result = result.replace(/\[([^\]]+)\]\((assets\/[^)]+)\)/g, (_, label, assetPath) => {
@@ -86,7 +92,7 @@ export function rewriteMdLinksMarkdown(text) {
       const githubPath = encodeURI(`${courseFolder}/${assetPath}`);
       return `[${label}](${GITHUB_RAW_BASE}/${githubPath})`;
     }
-    return `[${label}](/${assetPath})`;
+    return `[${label}](${internalUrl(`/${assetPath}`)})`;
   });
 
   return result;

@@ -1,15 +1,21 @@
-{{- $title := partial "docs/title" . -}}
+{{- $pageTitle := partial "docs/title" . -}}
+{{- $courseCode := .Site.Params.courseCode -}}
+{{- $title := cond .IsHome (printf "%s %s | Adam Simms" $courseCode .Site.Title) (cond (eq $pageTitle "Overview") (printf "%s %s — Syllabus Overview | Adam Simms" $courseCode .Site.Title) (printf "%s — %s | %s" $courseCode $pageTitle .Site.Title)) -}}
 {{- $desc := or .Description .Summary | plainify | htmlUnescape -}}
-{{- $image := absURL (.Site.Params.socialImage | default "images/curiosity-selfie.jpg") -}}
+{{- $image := absURL (.Site.Params.socialImageOg | default .Site.Params.socialImage | default "images/og-square.jpg") -}}
+{{- $imageWidth := .Site.Params.socialImageWidth | default 1200 -}}
+{{- $imageHeight := .Site.Params.socialImageHeight | default 1200 -}}
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:site_name" content="{{ .Site.Params.courseCode }} {{ .Site.Title }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang }}">
 <meta property="og:image" content="{{ $image }}">
+<meta property="og:image:width" content="{{ $imageWidth }}">
+<meta property="og:image:height" content="{{ $imageHeight }}">
 <meta property="og:image:alt" content="{{ .Site.Params.hero.alt }}">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $image }}">

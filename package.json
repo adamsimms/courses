@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-all.mjs",
+    "build": "node scripts/generate-og-square.mjs && node scripts/build-all.mjs",
     "clean": "rm -rf dist"
   },
   "engines": {

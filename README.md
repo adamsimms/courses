@@ -62,15 +62,15 @@ Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs
 
 ## Publishing
 
-Course sites are built for path-based hosting at `adamsimms.xyz/courses/photXXX/`.
+Course sites are published at `syllabi.adamsimms.xyz/photXXX/` (e.g. `syllabi.adamsimms.xyz/phot331/`).
 
 ```bash
 npm run build   # outputs to dist/
 ```
 
-Cloudflare Pages project: **adamsimms-xyz-courses** (`wrangler.toml`). Preview: [adamsimms-xyz-courses.pages.dev/courses/](https://adamsimms-xyz-courses.pages.dev/courses/).
+Cloudflare Pages project: **adamsimms-xyz-syllabi** (`wrangler.toml`). Preview: [adamsimms-xyz-syllabi.pages.dev](https://adamsimms-xyz-syllabi.pages.dev/).
 
-**Dashboard settings** (Workers & Pages → adamsimms-xyz-courses → Settings → Builds):
+**Dashboard settings** (Workers & Pages → adamsimms-xyz-syllabi → Settings → Builds):
 
 | Setting | Value |
 |---------|-------|
@@ -79,7 +79,7 @@ Cloudflare Pages project: **adamsimms-xyz-courses** (`wrangler.toml`). Preview: 
 | `HUGO_VERSION` | `0.164.0` (optional; Hugo is also pinned via `hugo-extended` in `package.json`) |
 | `GIT_LFS_ENABLED` | `true` |
 
-Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `adamsimms.xyz` under Custom domains when ready.
+Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `syllabi.adamsimms.xyz` under Custom domains.
 
 Large PHOT 332 sample archives (>24 MiB) are linked from GitHub rather than hosted on Pages.
 

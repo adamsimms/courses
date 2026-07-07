@@ -1,11 +1,16 @@
-baseURL = "https://adamsimms.xyz/courses/phot331/"
+baseURL = "https://syllabi.adamsimms.xyz/phot331/"
 title = "Digital Photography I"
 theme = "hugo-book"
 
 copyright = "[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 
 disablePathToLower = true
+disableKinds = ["taxonomy", "term"]
 publishDir = "_site"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
 
 [markup]
   [markup.goldmark]
@@ -29,6 +34,30 @@ publishDir = "_site"
   courseTitle = "Digital Photography I"
   appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
   socialImage = "images/colorchecker.jpg"
+  socialImageOg = "images/og-square.jpg"
+  socialImageWidth = 1200
+  socialImageHeight = 1200
+  siteDescription = "PHOT 331 Digital Photography I — open syllabus and course materials taught by Adam Simms at Concordia University."
+
+[[params.relatedCourses]]
+  code = "PHOT 331"
+  title = "Digital Photography I"
+  url = "https://syllabi.adamsimms.xyz/phot331/course/overview/"
+
+[[params.relatedCourses]]
+  code = "PHOT 332"
+  title = "Digital Photography II"
+  url = "https://syllabi.adamsimms.xyz/phot332/course/overview/"
+
+[[params.relatedCourses]]
+  code = "PHOT 398"
+  title = "As Seen on Screens: Cyberspace & Image Economy"
+  url = "https://syllabi.adamsimms.xyz/phot398/course/overview/"
+
+[[params.relatedCourses]]
+  code = "PHOT 400"
+  title = "Advanced Workshop in Photography"
+  url = "https://syllabi.adamsimms.xyz/phot400/course/overview/"
 
 [params.hero]
   alt = "X-Rite ColorChecker Classic chart used for colour calibration in digital photography"

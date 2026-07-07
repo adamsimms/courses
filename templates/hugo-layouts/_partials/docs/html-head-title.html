@@ -1,0 +1,9 @@
+{{- $pageTitle := partial "docs/title" . -}}
+{{- $courseCode := .Site.Params.courseCode -}}
+{{- if .IsHome -}}
+{{- printf "%s %s | Adam Simms" $courseCode .Site.Title -}}
+{{- else if eq $pageTitle "Overview" -}}
+{{- printf "%s %s — Syllabus Overview | Adam Simms" $courseCode .Site.Title -}}
+{{- else -}}
+{{- printf "%s — %s | %s" $courseCode $pageTitle .Site.Title -}}
+{{- end -}}

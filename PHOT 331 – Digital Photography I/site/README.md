@@ -41,7 +41,7 @@ Edit the Markdown files in the parent course folder, then run `npm run build` to
 
 ## Deployment
 
-Built files in `_site/` can be copied to `adamsimms.xyz/courses/phot331/` when ready.
+Built files in `_site/` can be copied to `syllabi.adamsimms.xyz/phot331/` when ready.
 
 ## Updating the theme
 

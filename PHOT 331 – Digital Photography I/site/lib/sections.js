@@ -1,9 +1,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { siteUrl } from "../../../scripts/site-path.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const courseDir = path.resolve(__dirname, "../..");
+const hugoSiteDir = path.resolve(__dirname, "..");
+
+function internalUrl(relativePath) {
+  return siteUrl(hugoSiteDir, relativePath);
+}
 
 export function stripRepoNav(content) {
   return content
@@ -74,11 +80,11 @@ export function rewriteMdLinksMarkdown(text) {
       target = hugoAnchorMap[hash];
       hash = "";
     }
-    return `[${label}](${target}${hash || ""})`;
+    return `[${label}](${internalUrl(target)}${hash || ""})`;
   });
 
   result = result.replace(/\[([^\]]+)\]\((assets\/[^)]+)\)/g, (_, label, assetPath) => {
-    return `[${label}](/${assetPath})`;
+    return `[${label}](${internalUrl(`/${assetPath}`)})`;
   });
 
   return result;

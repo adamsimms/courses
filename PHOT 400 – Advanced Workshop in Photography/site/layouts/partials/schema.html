@@ -1,0 +1,32 @@
+{{- $desc := or .Description .Summary | plainify | htmlUnescape -}}
+{{- $pageTitle := partial "docs/title" . -}}
+{{- $courseCode := .Site.Params.courseCode -}}
+{{- $courseName := printf "%s %s" $courseCode (.Site.Title | plainify) -}}
+{{- $breadcrumbs := slice -}}
+{{- $position := 1 -}}
+{{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $position "name" $courseName "item" .Site.Home.Permalink) -}}
+{{- range .Ancestors.Reverse -}}
+  {{- if ne .RelPermalink $.Site.Home.RelPermalink -}}
+    {{- $position = add $position 1 -}}
+    {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $position "name" (partial "docs/title" . | plainify) "item" .Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (not .IsHome) (ne $pageTitle (partial "docs/title" .Site.Home)) -}}
+  {{- $position = add $position 1 -}}
+  {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $position "name" ($pageTitle | plainify) "item" .Permalink) -}}
+{{- end -}}
+{{- $graph := slice (dict "@type" "BreadcrumbList" "itemListElement" $breadcrumbs) -}}
+{{- if eq $pageTitle "Overview" -}}
+  {{- $graph = $graph | append (dict
+    "@type" "Course"
+    "name" $courseName
+    "description" $desc
+    "url" .Permalink
+    "inLanguage" .Site.Language.Lang
+    "provider" (dict "@type" "CollegeOrUniversity" "name" "Concordia University" "url" "https://www.concordia.ca")
+    "instructor" (dict "@type" "Person" "name" "Adam Simms" "url" "https://www.concordia.ca/faculty/adam-simms.html")
+    "license" "https://creativecommons.org/licenses/by/4.0/"
+  ) -}}
+{{- end -}}
+{{- $payload := dict "@context" "https://schema.org" "@graph" $graph -}}
+{{ printf `<script type="application/ld+json">%s</script>` ($payload | jsonify) | safeHTML }}
