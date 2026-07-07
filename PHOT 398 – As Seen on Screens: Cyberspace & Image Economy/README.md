@@ -1,4 +1,4 @@
-# PHOT 400 – Advanced Workshop in Photography
+# PHOT 398 – As Seen on Screens: Cyberspace & Image Economy
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
@@ -6,11 +6,12 @@
 
 **Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
 
-**Teaching Assistant:** Michelle Caron-Pawlowsky
+**Teaching Assistant:** Petrija Dos Santos
 
-- **Credits:** 6-credit course (26 weeks across two terms)
-- **Time:** Thursdays, 1:30–5:30 PM
-- **Location:** EV 3.645 SGW
+- **Credits:** 3-credit course
+- **Length:** 13 weeks
+- **Time:** Fridays, 1:30–5:30 PM Eastern Time
+- **Delivery:** Remote with optional in-person activities
 
 ## Land Acknowledgement
 
@@ -20,53 +21,53 @@ This territorial acknowledgement and resources were created by Concordia Univers
 
 ---
 
-## Prerequisites
-
-The following courses must be completed previously: PHOT 300; ARTH 359. Students must have completed 48 credits in the Major in Photography before enrolling.
-
----
-
 ## Description
 
-PHOT 400 is a studio course for students in their final year of the photography program. The course is designed to help students develop their artistic skills through practical application and critical analysis, continue to develop a photographic language unique to their practice, and learn from the work of other contemporary artists.
+We live in a world flooded with images. Through our phones and computers, we navigate within excessive amounts of online content every day. This course will focus on the fragility of information in the digital age and will examine the accumulation and potential of data that images generate silently. Cultivating an aesthetic fascination for the screen, for its anxieties and demands, this course will address critical notions emerging from a wide range of horizons: technological utopianism, 1990s hacker culture, science fictionalization, conspiracy theories, etc. Working with and against algorithms, students will be encouraged to explore the tentacular structures of technology — its potential for sampling, editing and reconfiguring itself in a malleable oscillation between visual entity and abstract data. The objective of this course is for students to invest themselves in the creation of works which will exist solely online, and their projects will have to address issues relating to digital globalization, image circulation/commodification, computer vision, surveillance capitalism, etc.
 
-Weekly classes will engage with contemporary photography topics in seminars, participate in group critiques, visit galleries and museums, and receive both technical and personal guidance from the instructor.
-
-Students are required to undertake an extended black-and-white or colour photographic project in analogue or digital formats. Although there are no specific requirements for the size, format, or number of prints for the final project, the work presented at the midterm and final evaluations must clearly address the themes outlined in their project proposals and final project statements. Students are expected to produce a substantial amount of work for these critiques.
+This course will emphasize the students' understanding of the various possibilities of image-making in the context of online art practices. Lectures, workshops, readings, artist presentations, and activities will facilitate learning technical and theoretical knowledge relating to digital photography, net art, and post-internet art. We will examine a conceptual understanding of screens, address the vastness and value of digital image circulation across existing and emerging economies, and the potential avenues and identities of photography navigating through these routes. Engaging in the semiotic nature of images, we will explore the internet as a platform for remix culture, social acceleration, and real-time surveillance. Early in the semester, students will submit a proposal for a final research-creation project which will be presented and critiqued at the end of the semester. Work-in-progress will be presented and discussed throughout the semester in group critiques and individual meetings with the professor. The work should demonstrate a coherent resolution of the concerns the student has chosen to address as outlined in their project proposal.
 
 ### Objectives
 
-- **Learn to focus and structure the creative process:** Students will be taught to structure their creative process by breaking down the different phases of creation: research and theory, visual and material experimentation, final choices, sequencing and presentation.
-- **Deepen the understanding of the medium through photography theory:** Through readings, students will reflect on various aspects of image making, representation, and the role of the artist/photographer as it relates to their practice.
-- **Expand the understanding of photography within contemporary visual arts:** Class presentations, artist talks, and gallery visits will provide students with a wider sense of the photographic medium within the larger scope of visual arts.
-- **Create a cohesive body of work and learn to articulate conceptual ideas:** Students will be assisted in the creation of a personal project using a photographic technique of their choice. Students will learn to articulate their ideas verbally and in written form.
+- Create a conceptually coherent and technically accomplished research-creation project that questions and challenges issues relating to digital image-making in the context of internet culture.
+- Demonstrate a strong personal aesthetic voice built on the student's deep understanding of the digital image in all of its complexities.
+- Reflect constructively on the works of others and show a capacity for in-depth analysis of the student's own practice.
+- Present persistence and assiduity in the completion of all assignments, presentations, and readings.
 
 ---
 
 ## Delivery
 
-### In-Person
-
-All classes will be held on campus at EV 3.645 SGW unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
+This course will be taught remotely with optional in-person activities. To take this course, students must have access to the internet and a computer with the capacity to access Moodle (the learning platform used by Concordia); to participate in virtual class meetings via Zoom; and to conduct research remotely. Student access to campus will be subject to government regulations and University policy.
 
 ### Moodle
 
-- [Course Moodle page](https://moodle.concordia.ca/moodle/course/view.php?id=169301)
+- [Course Moodle page](https://moodle.concordia.ca/moodle/course/view.php?id=140707)
 - You can access Moodle directly at [moodle.concordia.ca](https://moodle.concordia.ca).
 - Please make sure the email address you indicate in your My CU Account/Student Hub is correct and up to date. Any Moodle course announcements created by professors will automatically use this email address for notifications.
 - Program hubs: [Photography Moodle Hub](https://moodle.concordia.ca) · [Studio Arts Department Moodle Hub](https://moodle.concordia.ca)
 
+### Zoom
+
+Students are expected to participate in this class via the Zoom platform. We will use a consistent Zoom meeting link; please use it to access the course.
+
+- You may have your camera on or off during Zoom class meetings.
+- If you have your camera on, you are now in a public space, even if you are physically in your bedroom. It is important to draw your boundary and present yourself as if you are in a public space with your classmates (i.e. sit at the desk, refrain from reclining on bed or couch).
+- Join the class meeting with your microphone on mute — your microphone will pick up noise around you and it can cause interruption during the lecture.
+- Be respectful to each other.
+- If you have your camera on, protect everyone's privacy by not having another person who is not part of the class on camera with you. This is the same as offline classrooms, where you can't usually bring an external party with you.
+
 ### Individual Meetings
 
-Individual meetings can be arranged by [booking an appointment](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
+Individual meetings can be [booked by appointment](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
 
 ---
 
 ## Fees + Materials
 
-**Photography department fee:** All students must pay $160 for each 6-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the professor by **Week 4**. The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.
+**Photography department fee:** Students who plan to use the photography facilities and/or borrow equipment must pay $80 per 3-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html).
 
-Students must bear the cost of all photographic materials needed to complete their assignments.
+Students must bear the cost of all materials needed to complete their assignments and research-creation project.
 
 ---
 
@@ -74,21 +75,10 @@ Students must bear the cost of all photographic materials needed to complete the
 
 | Component | Weight |
 |-----------|--------|
-| [Proposal](assignments.md#proposal-10) | 10% |
-| [Mid-Term Presentation](assignments.md#mid-term-presentation-10) | 10% |
-| [Final Presentation and Critique](assignments.md#final-presentation-and-critique-20) | 20% |
-| [Class Participation](assignments.md#class-participation-10) | 10% |
-| **Total** | **50%** |
-
-The remaining 50% of the course grade is assessed in the second term.
-
-### Evaluation Criteria
-
-- Assignments and portfolios show a robust artistic approach, both technically and conceptually, and coherence between artistic intention and aesthetic choices.
-- Student actively produces work throughout the academic year, during scheduled working periods and outside class time.
-- Students can articulate a critical discourse of contemporary photography.
-- Care is taken in the presentation (critiques, portfolio, assignments, and texts).
-- Punctuality, participation in critiques and workshops, and attendance.
+| Participation | 20% |
+| [Moodle Responses](assignments.md#moodle-responses-10) | 10% |
+| [Group Presentation](assignments.md#group-presentation--discussion-20) | 20% |
+| [Research-Creation Project](assignments.md#research-creation-project-50) | 50% |
 
 **A+, A, A-:** Outstanding — Work surpasses expectations. Highly resolved conceptually and technically.
 
@@ -114,25 +104,21 @@ Please refer to the [Concordia Academic Calendar, section 16.3.3](https://www.co
 
 ### Attendance
 
-Attendance is mandatory for every class unless a prior arrangement has been made with the instructor. Students are expected to arrive on time for scheduled classes and meetings. Being more than 30 minutes late to class constitutes an absence.
+Attendance is mandatory for every class unless a prior arrangement has been made with the instructor. All students are required to confirm their attendance for every class via the Moodle attendance module. As in a face-to-face class, all students are expected to arrive on time for scheduled classes and meetings. Being more than 30 minutes late to class constitutes an absence.
 
-- Students will not be allowed to present their projects if they have missed their peers' critiques.
+- Students will not be allowed to present their projects if they have missed their peers' critiques without instructor approval.
 - Missing your own critique is equivalent to missing an exam. The instructor could assign an F grade for the assignment if deemed appropriate.
-- Missing three classes per term will result in failing the course.
+- Missing more than two courses without valid excuses approved by the instructor could result in an F grade if deemed appropriate.
 
 Students with valid documentation and medical notes will not be penalized for absences.
 
 ### Participation
 
-The use of cell phones or texting is NOT permitted in class. Marks will be deducted if these rules are not respected.
+Participation marks are given based on students' overall presence during the course, including their attendance record and thoughtful contributions to the discussion during workshops, lectures and critiques. A low attendance record naturally leads to a low participation grade. Also, students' involvement with the course material is assessed based on their efforts and level of engagement during and outside of class time. Students can expect a high participation grade if they keep a good attendance record and are proactive about their own learning by asking questions and sharing their knowledge and opinions with their peers during class discussions. Online classes require regular interaction to create a positive learning environment: you should expect to check into the course Moodle periodically and post to the discussion forums by the indicated due dates. Students who regularly fail to post to required discussions and assignments not only hurt their own chances of success but also diminish the learning experience for all students in the class.
 
 ### Communication
 
-Please use professional language when emailing the instructor.
-
-To promote a healthy working environment and work/life balance, please allow 24 hours for us to respond to your email. We are always happy and available to answer questions. However, before sending an email, please check your syllabus; the answer may already be on this document.
-
-Students are responsible for regularly checking their email for updates regarding the course. For communications requiring privacy, [book an individual meeting](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
+Students are responsible for regularly checking their email and our class Moodle site for updates regarding the course. All questions related to course content should be posted on our class Moodle site in the Questions & Answers forum. For communications requiring privacy, [book an individual meeting](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
 
 ### Deadlines
 
@@ -140,7 +126,7 @@ While students are expected to meet deadlines given for each assignment, late as
 
 ### Behaviour
 
-This course will require students to work collaboratively with one another. The success of our class depends on trust, respect and mutual support. Students are responsible for contributing to an inclusive learning environment free of bullying, harassment and discrimination. This includes addressing classmates using their preferred names and pronouns in online discussions. It is of the utmost importance that respect is maintained between all members of the class in order to create a positive working environment.
+This course will require students to work collaboratively with one another. The success of our online class depends on trust, respect and mutual support. Students are responsible for contributing to an inclusive learning environment free of bullying, harassment and discrimination. This includes addressing classmates using their preferred names and pronouns in online discussions. It is of the utmost importance that respect is maintained between all members of the class in order to create a positive working environment.
 
 This class does not tolerate remarks that are disrespectful and offensive towards another's ethnicity, religion, gender, sexuality and/or accessibilities. Sexual violence, including sexual harassment and sexual assault, is not tolerated at Concordia. Please see [Concordia's policy on sexual violence](https://www.concordia.ca/web/policies/132.html) for more information about awareness and prevention, support for survivors/victims, responding to disclosures and procedures for reports and complaints. You can also contact the Sexual Assault Resource Centre for information and support. More information and support are available at the Sexual Assault Resource Centre, by email sarc@concordia.ca or phone 514-848-2424 x 3353.
 
@@ -155,6 +141,8 @@ The most common offence under the Academic Code of Conduct is plagiarism, which 
 ### Academic Accommodations
 
 In the case of emergencies, illness, or inability to complete the course work for any reason, accommodations can be made with the instructor with clear communication and advance notice. Students who prefer to submit any and all written material in the French language are welcome to do so.
+
+We recognize students may experience unexpected physical or psychological health concerns that affect their ability to attend class or submit coursework on time. The Short-Term Absence form lets you submit your request for short-term medical accommodation without documentation like a medical note.
 
 ### Accessibility
 

@@ -1,0 +1,78 @@
+import { extractSection, readCourseFile, rewriteMdLinksMarkdown } from "./sections.js";
+
+function gradingTable(raw) {
+  const section = extractSection(raw, "Grading");
+  const tableEnd = section.search(/\n\*\*A\+/);
+  const table = tableEnd > -1 ? section.slice(0, tableEnd).trim() : section.split("\n").slice(0, 6).join("\n");
+  return `## Grading\n\n${table}`;
+}
+
+function gradingSystem(raw) {
+  const section = extractSection(raw, "Grading");
+  const scale = section
+    .split("\n")
+    .filter((line) => /^[A-F]/.test(line.trim()) || line.includes("90–100") || line.includes("90-100"))
+    .join("\n");
+  const descriptions = section
+    .split("\n")
+    .filter((line) => line.startsWith("**A") || line.startsWith("**B") || line.startsWith("**C") || line.startsWith("**D") || line.startsWith("**F"))
+    .join("\n\n");
+
+  return `## Grading System
+
+${descriptions}
+
+${scale}
+
+Please refer to the [Concordia Academic Calendar, section 16.3.3](https://www.concordia.ca/academics/undergraduate/calendar.html) for additional information on the grading system.`;
+}
+
+export function buildOverviewMarkdown() {
+  const raw = readCourseFile("README.md");
+  const courseDetails = extractSection(raw, "Course Details");
+  const instructorBlock = courseDetails.replace(/\n- \*\*Credits[\s\S]*/m, "").trim();
+  const landAckRaw = extractSection(raw, "Land Acknowledgement");
+  const landAck = landAckRaw.replace(/\n\nThis territorial acknowledgement[\s\S]*/m, "").trim();
+  const prerequisites = extractSection(raw, "Prerequisites");
+  const descriptionBlock = extractSection(raw, "Description");
+  const objectives = extractSection(descriptionBlock, "Objectives", { level: 3 });
+  const courseDescription = descriptionBlock.replace(/### Objectives[\s\S]*/m, "").trim();
+  const fees = extractSection(raw, "Fees + Materials");
+
+  const markdown = `# Overview
+
+${instructorBlock}
+
+---
+
+${landAck}
+
+<small>This [territorial acknowledgement](http://www.concordia.ca/about/indigenous/territorial-acknowledgement.html) and resources were created by Concordia University's Indigenous Directions Leadership Group (2017).
+
+For more information, refer to [native land](https://www.native-land.ca/) and [whose land](https://www.whose.land/en/).</small>
+
+---
+
+## Prerequisites
+
+${prerequisites}
+
+## Course Description
+
+${courseDescription}
+
+## Objectives
+
+${objectives}
+
+## Materials & Fees
+
+${fees}
+
+${gradingTable(raw)}
+
+${gradingSystem(raw)}
+`;
+
+  return rewriteMdLinksMarkdown(markdown);
+}

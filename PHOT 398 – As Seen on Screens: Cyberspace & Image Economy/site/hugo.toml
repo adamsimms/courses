@@ -1,0 +1,36 @@
+baseURL = "https://adamsimms.xyz/courses/phot398/"
+title = "As Seen on Screens: Cyberspace & Image Economy"
+theme = "hugo-book"
+
+copyright = "[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+disablePathToLower = true
+publishDir = "_site"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  [markup.highlight]
+    style = "github"
+
+[params]
+  BookTheme = "light"
+  BookToC = false
+  BookSearch = false
+  BookComments = false
+  BookSection = "/"
+  BookRepo = "https://github.com/adamsimms/courses"
+  BookFavicon = "favicon.svg"
+  courseCode = "PHOT 398"
+  courseTitle = "As Seen on Screens: <em>Cyberspace & Image Economy</em>"
+  appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
+  socialImage = "images/curiosity-selfie.jpg"
+
+[params.hero]
+  alt = "NASA Curiosity rover selfie during a Martian dust storm at Gale Crater"
+  caption = "NASA — Curiosity's Dusty Selfie"
+  creditUrl = "https://images.nasa.gov/details/PIA22486"

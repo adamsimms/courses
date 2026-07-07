@@ -1,0 +1,36 @@
+baseURL = "https://adamsimms.xyz/courses/phot331/"
+title = "Digital Photography I"
+theme = "hugo-book"
+
+copyright = "[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+disablePathToLower = true
+publishDir = "_site"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  [markup.highlight]
+    style = "github"
+
+[params]
+  BookTheme = "light"
+  BookToC = false
+  BookSearch = false
+  BookComments = false
+  BookSection = "/"
+  BookRepo = "https://github.com/adamsimms/courses"
+  BookFavicon = "favicon.svg"
+  courseCode = "PHOT 331"
+  courseTitle = "Digital Photography I"
+  appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
+  socialImage = "images/colorchecker.jpg"
+
+[params.hero]
+  alt = "X-Rite ColorChecker Classic chart used for colour calibration in digital photography"
+  caption = "X-Rite — ColorChecker Classic"
+  creditUrl = "https://www.xrite.com/categories/calibration/colorchecker-classic"

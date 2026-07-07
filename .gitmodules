@@ -1,0 +1,12 @@
+[submodule "PHOT 398 – As Seen on Screens: Cyberspace & Image Economy/site/themes/hugo-book"]
+	path = PHOT 398 – As Seen on Screens: Cyberspace & Image Economy/site/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "PHOT 332 – Digital Photography II/site/themes/hugo-book"]
+	path = PHOT 332 – Digital Photography II/site/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "PHOT 400 – Advanced Workshop in Photography/site/themes/hugo-book"]
+	path = PHOT 400 – Advanced Workshop in Photography/site/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "PHOT 331 – Digital Photography I/site/themes/hugo-book"]
+	path = PHOT 331 – Digital Photography I/site/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git

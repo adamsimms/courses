@@ -1,0 +1,15 @@
+{{- $title := partial "docs/title" . -}}
+{{- $desc := or .Description .Summary | plainify | htmlUnescape -}}
+{{- $image := absURL (.Site.Params.socialImage | default "images/workshop-hero.jpg") -}}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ .Site.Language.Lang }}">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:alt" content="{{ .Site.Params.hero.alt }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $image }}">

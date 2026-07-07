@@ -1,0 +1,11 @@
+{
+  "name": "phot332-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-content.mjs",
+    "build": "npm run generate && hugo --minify",
+    "serve": "npm run generate && hugo server --disableFastRender",
+    "clean": "rm -rf _site content"
+  }
+}

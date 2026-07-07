@@ -1,4 +1,4 @@
-# PHOT 332 – Digital Photography II
+# PHOT 331 – Digital Photography I
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
@@ -6,7 +6,7 @@
 
 **Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
 
-**Teaching Assistant:** Michelle Caron-Pawlowsky
+**Teaching Assistant:** Eve Marie Vitalité
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
@@ -23,21 +23,34 @@ This territorial acknowledgement and resources were created by Concordia Univers
 
 ## Description
 
-This advanced studio course builds upon and expands students' technical and conceptual knowledge of digital tools and workflows in photography. The course emphasizes the development of a personalized artistic vision while critically engaging with the ways technology shapes image creation and circulation in contemporary digital culture.
+An introductory studio course investigating the technical and creative aspects of digital photography. This course provides students with an understanding of the digital image and a practical application of the tools within their personal approach to photography. Students explore the production of digital photographs, emphasizing the manipulation of images with software and the preparation for different formats. Issues related to the use of digital imagery within the larger context of photography are explored.
 
-Through a combination of technical workshops, class discussions, and creative assignments, students will refine their practical skills and explore the conceptual implications of established and emerging technologies. The course focuses on resolving students' technical challenges within their current artistic production, encouraging them to analyze their images and identify effective solutions.
+Students who have received credit for this topic under a PHOT 498 number may not take this course for credit.
 
-Alongside practical problem-solving, students will engage with issues of contemporary photography through lectures and group discussions. These critical frameworks will allow students to better understand and question the evolving role of photography in digital culture.
+---
 
-Students will produce a series of smaller projects that reflect advanced technical knowledge and a strong conceptual foundation. Assignments are designed to encourage experimentation and the exploration of digital photography's evolving possibilities, enabling students to demonstrate their technical proficiency and creative engagement with the themes of the course.
+## Prerequisites
+
+PHOT 210; PHOT 221 previously or concurrently; and enrolment in the Major in Photography, or written permission of the program director.
+
+---
+
+## Overview
+
+This course will establish the fundamental components of digital darkroom workflows. Building on prior analog experiences, students will develop technical proficiency with digital tools and processes, integrating them into their artistic practice. Early in the semester, students will explore essential concepts such as file formats, resolution, channels, and color management. Workshops will offer hands-on experience with flatbed and film scanners, RAW file processing, and image editing using Adobe Photoshop.
+
+Assignments and lectures will focus on cultivating critical visual analysis, problem-solving skills, and technical expertise. Through small exercises, students will learn to evaluate their images, identify areas for improvement, and make effective corrections. In the latter half of the course, students will apply advanced digital manipulation techniques to a small creative project, refining their aesthetic sensibilities and artistic vision.
+
+In addition to technical training, students will engage with readings, discussions, and portfolios of contemporary artists to explore the broader implications of digital imagery. These activities will encourage thoughtful consideration of digital photography's aesthetic, conceptual, and cultural possibilities. By the end of the course, students will have a strong technical foundation, enhanced critical thinking skills, and a refined approach to their creative practice.
 
 ### Objectives
 
-- Support student's production in their studio classes.
-- Refine advanced technical skills by building proficiency in digital photography workflows, including advanced Photoshop techniques, scanning, printing, and digital asset management.
-- Analyze and interpret critical readings on digital culture and photography, connecting theoretical perspectives to personal artistic practice.
-- Engage critically with the relationship between digital technologies and photography, examining how AI and online platforms influence the creation, presentation, and circulation of images.
-- Deepen understanding of photography's evolving role within digital culture and media theory.
+- Support student's production in their studio classes (PHOT 300, PHOT 400 or Special Topics in Photography).
+- Acquire the technical skills required to control analog and digital image inputs.
+- Learn the software skills to formally correct digital images.
+- Prepare digital images for a variety of outputs.
+- Establish a proficient digital workflow to support production-based practices.
+- Develop critical visual analysis and problem-solving skills to diagnose and resolve technically challenging images.
 
 ---
 
@@ -59,28 +72,25 @@ In the event that a class will be delivered remotely, students are expected to p
 
 ## Fees + Materials
 
-**Photography department fee:** All students must pay $60 for each 3-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the professor by **Week 4**. The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.
+**Photography department fee:** All students must pay $60 for each 3-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the teaching assistant by **Week 4**. The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.
 
 Students must bear the cost of all photographic materials needed to complete their assignments.
 
 ### Suggested Materials
 
-**Colour calibration tools**
-
-- Monitor calibration: X-Rite Colorimeter or Datacolor Spyder
+- Access to MAC or PC computer
+- [Adobe Creative Cloud](https://www.concordia.ca/it/services/adobe-cc-students.html): Photoshop and Bridge
+- Colour calibration tools
+- Monitor calibration: [X-Rite Colorimeter](https://www.xrite.com/photo-video/color-management-solutions/colorchecker) or [Datacolor Spyder](https://www.datacolor.com/spyder/)
 - Color Checker Chart
-
-**Access to film camera and film**
-
+- Access to digital camera with memory card
+- Access to film camera and film
 - Anti-static cloth
 - Gloves
 - Scissors
-
-**Storage**
-
-- External hard drive (Recommended: Lacie Rugged Mobile Storage)
+- External hard drive (Recommended: [Lacie Rugged Mobile Storage](https://www.lacie.com/))
 - Cloud storage (Google Drive, Dropbox, etc.)
-- CDA storage (10GB)
+- [CDA storage](http://cda.concordia.ca) (10GB)
 - Storage boxes and/or tubes for negatives and prints
 
 ---
@@ -89,10 +99,10 @@ Students must bear the cost of all photographic materials needed to complete the
 
 | Component | Weight |
 |-----------|--------|
-| [Assignment #1](assignments.md#assignment-1-group-presentations-20) | 20% |
-| [Assignment #2](assignments.md#assignment-2-triptyque-30) | 30% |
-| [Assignment #3](assignments.md#assignment-3-looking-through-the-screen-40) | 40% |
-| Participation | 10% |
+| [Assignment #1](assignments.md#assignment-1-inputs-30) | 30% |
+| [Assignment #2](assignments.md#assignment-2-printing-30) | 30% |
+| [Assignment #3](assignments.md#assignment-3-composite-triptych-30) | 30% |
+| Attendance & participation | 10% |
 
 **A+, A, A-:** Outstanding — Work surpasses expectations. Highly resolved conceptually and technically.
 
@@ -128,6 +138,10 @@ Students with valid documentation and medical notes will not be penalized for ab
 
 ### Participation
 
+Participation marks are given based on students' overall presence during the course, including their attendance record and thoughtful contributions to the discussion during workshops, lectures and critiques. A low attendance record naturally leads to a low participation grade. Also, students' involvement with the course material is assessed based on their efforts and level of engagement during and outside of class time. Students can expect a high participation grade if they keep a good attendance record and are proactive about their own learning by asking questions and sharing their knowledge and opinions with their peers during class discussions.
+
+Students who regularly fail to participate in discussions and assignments not only hurt their own chances of success but also diminish the learning experience for all students in the class.
+
 The use of cell phones or texting is NOT permitted in class. Marks will be deducted if these rules are not respected.
 
 ### Communication
@@ -162,7 +176,7 @@ In the case of emergencies, illness, or inability to complete the course work fo
 
 ### Accessibility
 
-This course strives to make the learning experience as accessible and inclusive as possible. If you have accessibility needs that require academic accommodations, please meet with an advisor from the Access Centre for Students with Disabilities (ACSD) as soon as possible to set up an accommodation plan. I welcome meeting with all students to discuss their accessibility needs.
+This course strives to make the learning experience as accessible and inclusive as possible. If you have accessibility needs that require academic accommodations, please meet with an advisor from the [Access Centre for Students with Disabilities](https://www.concordia.ca/students/accessibility) (ACSD) as soon as possible to set up an accommodation plan. I welcome meeting with all students to discuss their accessibility needs.
 
 ### Third Party Technology
 
@@ -172,7 +186,7 @@ By using Third Party Technologies, students agree to provide and share their wor
 
 ### Intellectual Property
 
-Content belonging to instructors shared in online courses, including, but not limited to, online lectures, course notes, and video recordings of classes remain the intellectual property of the faculty member. It may not be distributed, published or broadcast, in whole or in part, without the express permission of the faculty member. Students are also forbidden to use their own means of recording any elements of an online class or lecture without express permission of the instructor. Any unauthorized sharing of course content may constitute a breach of the Academic Code of Conduct and/or the Code of Rights and Responsibilities. As specified in the Policy on Intellectual Property, the University does not claim any ownership of or interest in any student IP. All university members retain copyright over their work.
+Content belonging to instructors shared in online courses, including, but not limited to, online lectures, course notes, and video recordings of classes remain the intellectual property of the faculty member. It may not be distributed, published or broadcast, in whole or in part, without the express permission of the faculty member. Students are also forbidden to use their own means of recording any elements of an online class or lecture without express permission of the instructor. Any unauthorized sharing of course content may constitute a breach of the Academic Code of Conduct and/or the Code of Rights and Responsibilities. As specified in the [Policy on Intellectual Property](https://www.concordia.ca/web/policies/132.html), the University does not claim any ownership of or interest in any student IP. All university members retain copyright over their work.
 
 ### Extraordinary Circumstances
 
