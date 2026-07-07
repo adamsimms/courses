@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const courseDir = path.resolve(__dirname, "../..");
 const courseFolder = path.basename(courseDir);
-const GITHUB_RAW_BASE = "https://github.com/adamsimms/courses/raw/main";
+const GITHUB_RAW_BASE = "https://github.com/adamsimms/syllabi/raw/main";
 const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
 
 export function stripRepoNav(content) {

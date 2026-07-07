@@ -16,7 +16,7 @@ Open course materials for undergraduate photography courses taught by [Adam Simm
 
 This repository collects syllabi, weekly schedules, assignment briefs, and curated resources for each course. Materials are maintained as Markdown for easy reading on GitHub and straightforward updates from semester to semester. Institution and semester details are noted on each course page.
 
-**Repository:** [github.com/adamsimms/courses](https://github.com/adamsimms/courses)
+**Repository:** [github.com/adamsimms/syllabi](https://github.com/adamsimms/syllabi)
 
 ## Courses
 
@@ -68,9 +68,9 @@ Course sites are built for path-based hosting at `adamsimms.xyz/courses/photXXX/
 npm run build   # outputs to dist/
 ```
 
-Cloudflare Pages project: **adamsimms-courses** (`wrangler.toml`). Preview: [adamsimms-courses.pages.dev/courses/](https://adamsimms-courses.pages.dev/courses/).
+Cloudflare Pages project: **adamsimms-xyz-courses** (`wrangler.toml`). Preview: [adamsimms-xyz-courses.pages.dev/courses/](https://adamsimms-xyz-courses.pages.dev/courses/).
 
-**Dashboard settings** (Workers & Pages → adamsimms-courses → Settings → Builds):
+**Dashboard settings** (Workers & Pages → adamsimms-xyz-courses → Settings → Builds):
 
 | Setting | Value |
 |---------|-------|
@@ -89,4 +89,4 @@ Unless otherwise noted, course materials in this repository are published under 
 
 ## Contact
 
-Questions about these materials or adapting them for your own teaching? [Book a meeting](https://calendar.notion.so/meet/adamsimms/1h) or [open an issue](https://github.com/adamsimms/courses/issues) in this repository.
+Questions about these materials or adapting them for your own teaching? [Book a meeting](https://calendar.notion.so/meet/adamsimms/1h) or [open an issue](https://github.com/adamsimms/syllabi/issues) in this repository.

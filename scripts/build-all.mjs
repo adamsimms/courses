@@ -128,7 +128,7 @@ function writeCoursesIndex() {
 ${items}
     </ul>
     <footer>
-      <a href="https://github.com/adamsimms/courses">Source on GitHub</a> ·
+      <a href="https://github.com/adamsimms/syllabi">Source on GitHub</a> ·
       <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     </footer>
   </main>
