@@ -69,8 +69,17 @@
   margin: 0 0.35rem;
 }
 
-.book-menu nav > ul.course-sidebar-crosslinks {
+.book-menu nav > ul.course-sidebar-hub {
   margin-top: 1.25rem;
+}
+
+.book-menu nav > ul.course-sidebar-hub a {
+  color: var(--course-text-muted);
+  font-size: 0.9rem;
+}
+
+.book-menu nav > ul.course-sidebar-hub a:hover {
+  color: var(--course-text);
 }
 
 .book-copyright {
