@@ -40,7 +40,7 @@ function writeCoursesIndex() {
     .map((course) => {
       const term = course.term ? `<p class="term">${escapeHtml(course.term)}</p>` : "";
       return `<li>
-  <a href="/${course.slug}/course/overview/">
+  <a href="/${course.slug}/">
     <span class="code">${escapeHtml(course.code)}</span>
     <span class="title">${escapeHtml(course.title)}</span>
   </a>
@@ -54,7 +54,7 @@ function writeCoursesIndex() {
     "@type": "Course",
     name: `${course.code} ${course.title}`,
     description: course.description,
-    url: `${SITE_ORIGIN}/${course.slug}/course/overview/`,
+    url: `${SITE_ORIGIN}/${course.slug}/`,
     provider: {
       "@type": "CollegeOrUniversity",
       name: "Concordia University",
@@ -213,11 +213,6 @@ ${items}
   fs.writeFileSync(path.join(distDir, "index.html"), html);
 }
 
-function writeRedirects() {
-  const redirects = courses.map((course) => `/${course.slug}/ /${course.slug}/course/overview/ 301`);
-  fs.writeFileSync(path.join(distDir, "_redirects"), `${redirects.join("\n")}\n`);
-}
-
 function writeRobotsTxt() {
   const body = `User-agent: *
 Allow: /
@@ -248,7 +243,7 @@ ${entries.join("\n")}
     `<url><loc>${HUB_URL}</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>`,
     ...courses.map(
       (course) =>
-        `<url><loc>${SITE_ORIGIN}/${course.slug}/course/overview/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`
+        `<url><loc>${SITE_ORIGIN}/${course.slug}/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`
     ),
   ];
 
@@ -297,7 +292,6 @@ for (const course of courses) {
 }
 
 writeCoursesIndex();
-writeRedirects();
 writeRobotsTxt();
 writeSitemapIndex();
 pruneOversizedFiles(distDir);

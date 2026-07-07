@@ -1,37 +1,10 @@
-<nav class="course-crosslinks" aria-label="Other photography courses">
-  <p class="course-crosslinks-label"><a href="/">All courses</a></p>
+<nav class="course-crosslinks" aria-label="All photography courses">
+  <a class="course-crosslinks-hub" href="/">All courses</a>
+  {{ with site.Data.related_courses }}
   <ul class="course-crosslinks-list">
-    {{- $current := .Site.Params.courseCode -}}
-    {{- range .Site.Params.relatedCourses -}}
-      {{- if ne .code $current -}}
-    <li><a href="{{ .url }}">{{ .code }} — {{ .title | plainify }}</a></li>
-      {{- end -}}
+    {{- range . -}}
+    <li><a href="{{ .url }}">{{ .code }} — {{ .title }}</a></li>
     {{- end -}}
   </ul>
+  {{ end }}
 </nav>
-<style>
-  .course-crosslinks {
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.12);
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.6);
-  }
-
-  .course-crosslinks-label {
-    margin: 0 0 0.5rem;
-  }
-
-  .course-crosslinks-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem 1rem;
-  }
-
-  .course-crosslinks-list a {
-    color: inherit;
-  }
-</style>

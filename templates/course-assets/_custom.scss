@@ -53,51 +53,61 @@
   border-bottom: none;
 }
 
-/* Breadcrumbs */
-.book-breadcrumbs {
-  margin: 0 0 1.25rem;
-  font-size: 0.85rem;
+/* Footer utilities */
+.course-footer-utils {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
   color: var(--course-text-muted);
 }
 
-.book-breadcrumbs ol {
+.course-footer-utils a {
+  color: var(--course-text);
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+.course-footer-sep {
+  margin: 0 0.35rem;
+}
+
+.course-crosslinks {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--course-border);
+  font-size: 0.9rem;
+  color: var(--course-text-muted);
+}
+
+.course-crosslinks-hub {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--course-text);
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+.course-crosslinks-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.35rem 1rem;
 }
 
-.book-breadcrumbs li + li::before {
-  content: "›";
-  margin-right: 0.35rem;
-  color: var(--course-text-muted);
-}
-
-.book-breadcrumbs a {
+.course-crosslinks-list a {
   color: inherit;
   border-bottom: 1px solid var(--course-link-underline);
 }
 
-.book-breadcrumbs li[aria-current="page"] {
-  color: var(--course-text);
-}
-
-/* Overview utilities */
-.page-utils {
-  margin: 0 0 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--course-border);
-  font-size: 0.9rem;
+.book-copyright {
+  margin-top: 2rem;
   color: var(--course-text-muted);
+  font-size: 0.85rem;
+  text-align: left;
 }
 
-.page-utils a {
-  color: var(--course-text);
+.book-footer .book-copyright.flex {
+  justify-content: flex-start;
 }
-
-/* Sidebar brand */
 .book-brand {
   margin-bottom: 1.25rem;
   line-height: 1.25;
@@ -290,12 +300,6 @@
   border-color: var(--course-accent);
 }
 
-.book-copyright {
-  margin-top: 2rem;
-  color: var(--course-text-muted);
-  font-size: 0.85rem;
-}
-
 .book-copyright a {
   color: var(--course-text);
   border-bottom: 1px solid var(--course-link-underline);
@@ -308,8 +312,7 @@
   .book-footer,
   .book-toc,
   .course-crosslinks,
-  .book-breadcrumbs,
-  .page-utils {
+  .course-footer-utils {
     display: none !important;
   }
 

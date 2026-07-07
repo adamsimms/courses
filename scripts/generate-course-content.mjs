@@ -5,12 +5,12 @@ import {
   contentSitemap,
   homeMeta,
   longPageMeta,
-  overviewUtilsBanner,
   sectionIndexMeta,
   seoMeta,
   sourceMeta,
 } from "./generate-content-helpers.mjs";
 import { buildReadingsMarkdown } from "./readings-page.mjs";
+import { writeRelatedCoursesData } from "./course-catalog.mjs";
 import { siteUrl } from "./site-path.mjs";
 
 const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
@@ -125,6 +125,7 @@ export function runCourseGenerator({
 
   cleanDir(contentDir);
   syncAssets(path.join(courseDir, "assets"), staticAssetsDir, assetSync);
+  writeRelatedCoursesData(sitePath, courseSlug);
 
   writePage(contentDir, "_index.md", { title: "Home", ...homeMeta, ...seoMeta(courseSlug, "home") }, "{{< course-hero >}}");
 
@@ -140,7 +141,7 @@ export function runCourseGenerator({
       ...contentSitemap(1.0),
       ...sourceMeta(courseFolderName, "README.md"),
     },
-    `${overviewUtilsBanner(sitePath)}${rewriteMdLinksMarkdown(buildOverviewMarkdown())}`
+    rewriteMdLinksMarkdown(buildOverviewMarkdown())
   );
 
   writePage(

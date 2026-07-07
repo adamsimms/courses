@@ -24,6 +24,9 @@ function copyDirectory(source, destination) {
 
 export function syncHugoLayouts(siteDir) {
   const destination = path.join(siteDir, "layouts");
+  if (fs.existsSync(destination)) {
+    fs.rmSync(destination, { recursive: true, force: true });
+  }
   copyDirectory(templateDir, destination);
 
   const assetsDir = path.join(siteDir, "assets");

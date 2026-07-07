@@ -1,0 +1,5 @@
+{{ define "copyright" }}
+  {{ if or .Site.Copyright .Params.Copyright }}
+    {{ partial "docs/copyright" . }}
+  {{ end }}
+{{ end }}

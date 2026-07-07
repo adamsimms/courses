@@ -49,26 +49,6 @@ publishDir = "_site"
   socialImageHeight = 1200
   siteDescription = "PHOT 398 As Seen on Screens — open syllabus on cyberspace and the image economy, taught by Adam Simms at Concordia University."
 
-[[params.relatedCourses]]
-  code = "PHOT 331"
-  title = "Digital Photography I"
-  url = "https://syllabi.adamsimms.xyz/phot331/course/overview/"
-
-[[params.relatedCourses]]
-  code = "PHOT 332"
-  title = "Digital Photography II"
-  url = "https://syllabi.adamsimms.xyz/phot332/course/overview/"
-
-[[params.relatedCourses]]
-  code = "PHOT 398"
-  title = "As Seen on Screens: Cyberspace & Image Economy"
-  url = "https://syllabi.adamsimms.xyz/phot398/course/overview/"
-
-[[params.relatedCourses]]
-  code = "PHOT 400"
-  title = "Advanced Workshop in Photography"
-  url = "https://syllabi.adamsimms.xyz/phot400/course/overview/"
-
 [params.hero]
   alt = "NASA Curiosity rover selfie during a Martian dust storm at Gale Crater"
   caption = "NASA — Curiosity's Dusty Selfie"
