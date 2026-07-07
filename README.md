@@ -20,6 +20,13 @@ This repository collects syllabi, weekly schedules, assignment briefs, and curat
 
 ## Courses
 
+### [PHOT 331 – Digital Photography I](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/)
+
+An introductory studio course in digital photography covering scanning, RAW processing, colour management, Photoshop correction, printing workflows, and composite image-making. Students complete three technical assignments — analog inputs, printing, and a composite triptych — while building the digital darkroom skills that support studio practice in the photography program.
+
+- Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Winter 2025.
+- [Syllabus](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/) · [Assignments](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/assignments.md) · [Schedule](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/schedule.md) · [Resources](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/resources.md)
+
 ### [PHOT 332 – Digital Photography II](./PHOT%20332%20%E2%80%93%20Digital%20Photography%20II/)
 
 An advanced studio course in digital photography that builds technical proficiency in Photoshop, scanning, printing, and digital asset management while developing a personalized artistic vision. Students complete three major assignments — group reading presentations, a printed triptych exploring composite and AI image-making, and an online final project — alongside weekly workshops and critical discussions on photography's role in digital culture.
