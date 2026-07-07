@@ -7,9 +7,17 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const distDir = path.join(rootDir, "dist");
 const coursesDir = path.join(distDir, "courses");
 const courses = JSON.parse(fs.readFileSync(path.join(rootDir, "courses.json"), "utf8"));
+const hugoBinDir = path.join(rootDir, "node_modules", ".bin");
 
 function run(command, cwd) {
-  execSync(command, { cwd, stdio: "inherit" });
+  execSync(command, {
+    cwd,
+    stdio: "inherit",
+    env: {
+      ...process.env,
+      PATH: `${hugoBinDir}${path.delimiter}${process.env.PATH ?? ""}`,
+    },
+  });
 }
 
 function writeCoursesIndex() {

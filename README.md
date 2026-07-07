@@ -76,7 +76,7 @@ Cloudflare Pages project: **adamsimms-xyz-courses** (`wrangler.toml`). Preview: 
 |---------|-------|
 | Build command | `npm run build` |
 | Build output directory | `dist` |
-| `HUGO_VERSION` | `0.164.0` |
+| `HUGO_VERSION` | `0.164.0` (optional; Hugo is also pinned via `hugo-extended` in `package.json`) |
 | `GIT_LFS_ENABLED` | `true` |
 
 Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `adamsimms.xyz` under Custom domains when ready.
