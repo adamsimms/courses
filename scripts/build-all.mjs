@@ -4,11 +4,23 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { SITE_ORIGIN } from "./course-seo.mjs";
 import { syncHugoLayouts } from "./sync-hugo-layouts.mjs";
+import {
+  buildUmamiScriptTag,
+  buildHeadersBlock,
+  loadAnalyticsConfig,
+  writeAnalyticsPartial,
+} from "./analytics.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const distDir = path.join(rootDir, "dist");
 const hugoBinDir = path.join(rootDir, "node_modules", ".bin");
 const courses = JSON.parse(fs.readFileSync(path.join(rootDir, "courses.json"), "utf8"));
+const analyticsConfig = loadAnalyticsConfig(rootDir);
+
+writeAnalyticsPartial(rootDir, analyticsConfig);
+if (!analyticsConfig.umamiWebsiteId) {
+  console.warn("Umami analytics skipped: set umamiWebsiteId in analytics.config.json or UMAMI_WEBSITE_ID");
+}
 
 const HUB_TITLE = "Photography Courses — Adam Simms";
 const HUB_DESCRIPTION =
@@ -88,6 +100,7 @@ function writeCoursesIndex() {
   <meta name="twitter:description" content="${escapeHtml(HUB_DESCRIPTION)}">
   <meta name="twitter:image" content="${HUB_IMAGE}">
   <link rel="icon" href="/phot331/favicon.svg" type="image/svg+xml">
+  ${buildUmamiScriptTag(analyticsConfig)}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -209,6 +222,10 @@ ${items}
   fs.writeFileSync(path.join(distDir, "index.html"), html);
 }
 
+function writeHeaders() {
+  fs.writeFileSync(path.join(distDir, "_headers"), buildHeadersBlock());
+}
+
 function writeRedirects() {
   const rules = courses.flatMap((course) => [
     `/${course.slug}/ /${course.slug}/index.html 200`,
@@ -298,6 +315,7 @@ for (const course of courses) {
 
 writeCoursesIndex();
 writeRedirects();
+writeHeaders();
 writeRobotsTxt();
 writeSitemapIndex();
 pruneOversizedFiles(distDir);

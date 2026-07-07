@@ -1,3 +1,4 @@
 {{ if or .Params.noindex .Params.BookHref (eq .Kind "404") }}
 <meta name="robots" content="noindex, nofollow">
 {{ end }}
+{{ partial "analytics" . }}

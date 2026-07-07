@@ -73,6 +73,16 @@ Connect the GitHub repo for automatic deploys on push to `main`. Add custom doma
 
 PDFs and small assets sync via Git LFS during the build. Sample archives over 24 MiB are served from GitHub Releases, not Pages.
 
+### Analytics
+
+Syllabus traffic is tracked with [Umami Cloud](https://umami.is/) (Hobby plan), shared with [adamsimms.xyz](https://adamsimms.xyz).
+
+1. Sign up at [cloud.umami.is](https://cloud.umami.is) and add a website named `adamsimms.xyz`.
+2. Copy the website ID into `analytics.config.json` (`umamiWebsiteId`), or set `UMAMI_WEBSITE_ID` in the Cloudflare Pages project environment.
+3. Run `npm run build` — the tracker is injected into all course pages and the hub.
+
+The script uses `data-domains="adamsimms.xyz,syllabi.adamsimms.xyz"` so one Umami website covers both properties.
+
 ## License
 
 Unless otherwise noted, course materials in this repository are published under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt these materials for any purpose, provided you give appropriate credit.
