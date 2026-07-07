@@ -1,0 +1,22 @@
+{{ if and (eq .Section "course") (eq .File.TranslationBaseName "overview") }}
+<script>
+(function () {
+  const match = window.location.pathname.match(/^\/(phot\d{3})\/course\/overview\/?$/);
+  if (!match || window.location.search) return;
+
+  const slug = match[1];
+  const home = "/" + slug + "/?home=1";
+  const nav = performance.getEntriesByType("navigation")[0];
+
+  if (nav && nav.redirectCount > 0) {
+    window.location.replace(home);
+    return;
+  }
+
+  const referrer = document.referrer ? new URL(document.referrer) : null;
+  if (referrer && referrer.origin === window.location.origin && referrer.pathname === "/") {
+    window.location.replace(home);
+  }
+})();
+</script>
+{{ end }}

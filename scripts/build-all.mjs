@@ -37,17 +37,15 @@ function escapeHtml(value) {
 
 function writeCoursesIndex() {
   const items = courses
-    .map((course) => {
-      const term = course.term ? `<p class="term">${escapeHtml(course.term)}</p>` : "";
-      return `<li>
+    .map(
+      (course) => `<li>
   <a href="/${course.slug}/">
     <span class="code">${escapeHtml(course.code)}</span>
     <span class="title">${escapeHtml(course.title)}</span>
   </a>
-  ${term}
   <p class="description">${escapeHtml(course.description)}</p>
-</li>`;
-    })
+</li>`
+    )
     .join("\n");
 
   const courseListJson = courses.map((course) => ({
@@ -155,8 +153,6 @@ function writeCoursesIndex() {
       border-top: 1px solid var(--border);
     }
 
-    li:last-child { border-bottom: 1px solid var(--border); }
-
     a {
       color: inherit;
       text-decoration: none;
@@ -180,7 +176,7 @@ function writeCoursesIndex() {
       font-weight: 500;
     }
 
-    .term, .description {
+    .description {
       margin: 0.5rem 0 0;
       color: var(--muted);
       font-size: 0.95rem;
@@ -211,6 +207,15 @@ ${items}
 </html>`;
 
   fs.writeFileSync(path.join(distDir, "index.html"), html);
+}
+
+function writeRedirects() {
+  const rules = courses.flatMap((course) => [
+    `/${course.slug}/ /${course.slug}/index.html 200`,
+    `/${course.slug} /${course.slug}/index.html 200`,
+  ]);
+
+  fs.writeFileSync(path.join(distDir, "_redirects"), `${rules.join("\n")}\n`);
 }
 
 function writeRobotsTxt() {
@@ -292,6 +297,7 @@ for (const course of courses) {
 }
 
 writeCoursesIndex();
+writeRedirects();
 writeRobotsTxt();
 writeSitemapIndex();
 pruneOversizedFiles(distDir);
