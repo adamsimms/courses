@@ -4,6 +4,9 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const courseDir = path.resolve(__dirname, "../..");
+const courseFolder = path.basename(courseDir);
+const GITHUB_RAW_BASE = "https://github.com/adamsimms/courses/raw/main";
+const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
 
 export function stripRepoNav(content) {
   return content
@@ -78,6 +81,11 @@ export function rewriteMdLinksMarkdown(text) {
   });
 
   result = result.replace(/\[([^\]]+)\]\((assets\/[^)]+)\)/g, (_, label, assetPath) => {
+    const sourcePath = path.join(courseDir, assetPath);
+    if (fs.existsSync(sourcePath) && fs.statSync(sourcePath).size > PAGES_MAX_ASSET_BYTES) {
+      const githubPath = encodeURI(`${courseFolder}/${assetPath}`);
+      return `[${label}](${GITHUB_RAW_BASE}/${githubPath})`;
+    }
     return `[${label}](/${assetPath})`;
   });
 

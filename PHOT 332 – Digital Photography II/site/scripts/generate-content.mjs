@@ -9,12 +9,35 @@ const contentDir = path.resolve(__dirname, "../content");
 const staticAssetsDir = path.resolve(__dirname, "../static/assets");
 const courseAssetsDir = path.resolve(__dirname, "../../assets");
 
+const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
+
+function copyAssetsFiltered(source, destination) {
+  fs.mkdirSync(destination, { recursive: true });
+
+  for (const entry of fs.readdirSync(source, { withFileTypes: true })) {
+    const sourcePath = path.join(source, entry.name);
+    const destinationPath = path.join(destination, entry.name);
+
+    if (entry.isDirectory()) {
+      copyAssetsFiltered(sourcePath, destinationPath);
+      continue;
+    }
+
+    if (fs.statSync(sourcePath).size > PAGES_MAX_ASSET_BYTES) {
+      console.warn(`Skipping ${path.relative(courseAssetsDir, sourcePath)} (>24 MiB, linked from GitHub)`);
+      continue;
+    }
+
+    fs.copyFileSync(sourcePath, destinationPath);
+  }
+}
+
 function syncAssets() {
   if (fs.existsSync(staticAssetsDir)) {
     fs.rmSync(staticAssetsDir, { recursive: true, force: true });
   }
   if (fs.existsSync(courseAssetsDir)) {
-    fs.cpSync(courseAssetsDir, staticAssetsDir, { recursive: true });
+    copyAssetsFiltered(courseAssetsDir, staticAssetsDir);
   }
 }
 
