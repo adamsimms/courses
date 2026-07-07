@@ -1,2 +1,6 @@
 node_modules/
 _site/
+content/
+static/assets/
+resources/
+.hugo_build.lock

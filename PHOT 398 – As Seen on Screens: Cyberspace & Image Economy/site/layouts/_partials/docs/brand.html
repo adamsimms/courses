@@ -1,0 +1,11 @@
+<h2 class="book-brand">
+  <a class="book-brand-link" href="{{ partial "docs/links/home" . }}">
+    {{- with .Site.Params.BookLogo -}}
+    <img src="{{ . | relURL }}" alt="{{ partial "docs/text/i18n" "Logo" }}" />
+    {{- end -}}
+    <span class="book-brand-text">
+      <small class="book-brand-code">{{ .Site.Params.courseCode }}</small>
+      <span class="book-brand-title">{{ .Site.Params.courseTitle | safeHTML }}</span>
+    </span>
+  </a>
+</h2>

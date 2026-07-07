@@ -1,12 +1,16 @@
 # PHOT 398 static site
 
-Cargo-styled static site generated from the course Markdown files in this folder's parent directory.
+[Hugo Book](https://github.com/alex-shpak/hugo-book) static site generated from the course Markdown files in this folder's parent directory.
+
+## Prerequisites
+
+- [Hugo](https://gohugo.io/installation/) (extended edition not required)
+- Node.js (for the content generator only)
 
 ## Build
 
 ```bash
 cd site
-npm install
 npm run build
 ```
 
@@ -18,26 +22,33 @@ Preview locally:
 npm run serve
 ```
 
-Then open http://localhost:8080
+Then open http://localhost:1313
 
 ## How it works
 
 - **Content source:** `../README.md`, `../assignments.md`, `../schedule.md`, `../resources.md`
-- **Design shell:** vendored CSS, fonts, and layout extracted from [phot398.cargo.site](https://phot398.cargo.site)
-- **Builder:** [Eleventy](https://www.11ty.dev/) injects rendered Markdown into the Cargo `<bodycopy>` layout
+- **Generator:** `scripts/generate-content.mjs` splits and rewrites Markdown into Hugo `content/`
+- **Theme:** [hugo-book](https://github.com/alex-shpak/hugo-book) (git submodule in `themes/hugo-book`)
+- **Custom styles:** `assets/_custom.scss` — typography and layout overrides
+- **Site structure:**
+  - `/` — home (hero image only)
+  - `/course/` — overview, delivery, schedule, rules, student services
+  - `/assignments/` — assignment briefs
+  - `/general/` — faculty and program info
+  - `/appointments/` — external booking link (Cal.com)
 
-Edit the Markdown files, then run `npm run build` to regenerate the site.
-
-## Assets
-
-`assets/cargo/` contains:
-
-- `member.css` — site stylesheet from Cargo
-- `platform.css` — Cargo platform layout rules
-- `local-nav.css` / `local-content.css` — page-specific layout from the Cargo snapshot
-- `fonts.css` + `fonts/` — Nitti Grotesk, Neue Haas Grotesk, and Cargo icon font
-- `static-overrides.css` — responsive nav and Markdown table styles (no Cargo JS required)
+Edit the Markdown files in the parent course folder, then run `npm run build` to regenerate the site.
 
 ## Deployment
 
-Built files in `_site/` can later be copied to `adamsimms.xyz/courses/phot398/` when ready.
+Built files in `_site/` can be copied to `adamsimms.xyz/courses/phot398/` when ready.
+
+## Updating the theme
+
+```bash
+git submodule update --remote themes/hugo-book
+```
+
+## Hugo compatibility note
+
+Hugo 0.164+ requires `assets/normalize.scss` in this project (copied from the theme's `normalize.css`) so the theme's SCSS import resolves correctly.

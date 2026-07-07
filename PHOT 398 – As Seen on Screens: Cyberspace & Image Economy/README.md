@@ -4,7 +4,9 @@
 
 ## Course Details
 
-> Taught by [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) with Teaching Assistant Petrija Dos Santos · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
+**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
+
+**Teaching Assistant:** Petrija Dos Santos
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
@@ -57,7 +59,7 @@ Students are expected to participate in this class via the Zoom platform. We wil
 
 ### Individual Meetings
 
-Individual Zoom meetings can be arranged by appointment with the instructor.
+Individual meetings can be [booked by appointment](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
 
 ---
 
@@ -116,7 +118,7 @@ Participation marks are given based on students' overall presence during the cou
 
 ### Communication
 
-Students are responsible for regularly checking their email and our class Moodle site for updates regarding the course. All questions related to course content should be posted on our class Moodle site in the Questions & Answers forum. For communications requiring privacy, students can contact the instructor directly via email or book an individual meeting.
+Students are responsible for regularly checking their email and our class Moodle site for updates regarding the course. All questions related to course content should be posted on our class Moodle site in the Questions & Answers forum. For communications requiring privacy, [book an individual meeting](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
 
 ### Deadlines
 
