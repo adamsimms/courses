@@ -5,7 +5,8 @@
     "code": "PHOT 331",
     "title": "Digital Photography I",
     "term": "Winter 2025",
-    "description": "Introductory digital photography: scanning, RAW processing, colour management, printing, and composite image-making."
+    "description": "Introductory digital photography: scanning, RAW processing, colour management, printing, and composite image-making.",
+    "tags": ["digital photography", "RAW", "colour management", "printing", "scanning"]
   },
   {
     "slug": "phot332",
@@ -13,7 +14,8 @@
     "code": "PHOT 332",
     "title": "Digital Photography II",
     "term": "Winter 2025",
-    "description": "Advanced digital photography building technical proficiency and a personalized artistic vision through workshops and major assignments."
+    "description": "Advanced digital photography building technical proficiency and a personalized artistic vision through workshops and major assignments.",
+    "tags": ["digital photography", "workshops", "artistic vision", "assignments", "studio"]
   },
   {
     "slug": "phot398",
@@ -21,7 +23,8 @@
     "code": "PHOT 398",
     "title": "As Seen on Screens: Cyberspace & Image Economy",
     "term": null,
-    "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project."
+    "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project.",
+    "tags": ["net art", "post-internet", "image economy", "research-creation", "remote studio"]
   },
   {
     "slug": "phot400",
@@ -29,6 +32,7 @@
     "code": "PHOT 400",
     "title": "Advanced Workshop in Photography",
     "term": "Fall 2025 – Winter 2025",
-    "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship."
+    "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship.",
+    "tags": ["capstone", "workshop", "critique", "research-creation", "studio"]
   }
 ]

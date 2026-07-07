@@ -10,6 +10,23 @@ import {
   loadAnalyticsConfig,
   writeAnalyticsPartial,
 } from "./analytics.mjs";
+import {
+  HUB_TITLE,
+  HUB_HEADING,
+  HUB_LEDE,
+  HUB_DESCRIPTION,
+  HUB_URL,
+  HUB_OG_IMAGE,
+  HUB_OG_IMAGE_ALT,
+  HUB_OG_IMAGE_WIDTH,
+  HUB_OG_IMAGE_HEIGHT,
+  HUB_THEME_COLOR,
+  HUB_SITE_NAME,
+  INSTRUCTOR_NAME,
+  INSTRUCTOR_URL,
+  INSTRUCTOR_BIO,
+  hubJsonLd,
+} from "./hub-seo.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const distDir = path.join(rootDir, "dist");
@@ -22,15 +39,6 @@ if (!analyticsConfig.umamiWebsiteId) {
   console.warn("Umami analytics skipped: set umamiWebsiteId in analytics.config.json or UMAMI_WEBSITE_ID");
 }
 
-const HUB_TITLE = "Photography Courses — Adam Simms";
-const HUB_DESCRIPTION =
-  "Open course materials for undergraduate photography courses taught by Adam Simms at Concordia University.";
-const HUB_URL = `${SITE_ORIGIN}/`;
-const HUB_IMAGE = `${SITE_ORIGIN}/phot331/images/og-square.jpg`;
-const INSTRUCTOR_NAME = "Adam Simms";
-const INSTRUCTOR_URL = "https://www.concordia.ca/faculty/adam-simms.html";
-const INSTRUCTOR_BIO =
-  "Artist-in-residence, Studio Arts · Photography, New Media, and Design";
 const HUB_ASSETS_DIR = path.join(rootDir, "assets/hub");
 
 function run(command, cwd) {
@@ -52,13 +60,26 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function renderTags(tags) {
+  if (!tags?.length) return "";
+  const chips = tags
+    .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
+    .join("");
+  return `<span class="tags">${chips}</span>`;
+}
+
 function writeHubAssets() {
-  const destination = path.join(distDir, "images");
-  fs.mkdirSync(destination, { recursive: true });
+  const imagesDir = path.join(distDir, "images");
+  fs.mkdirSync(imagesDir, { recursive: true });
 
   for (const entry of fs.readdirSync(HUB_ASSETS_DIR, { withFileTypes: true })) {
     if (!entry.isFile()) continue;
-    fs.copyFileSync(path.join(HUB_ASSETS_DIR, entry.name), path.join(destination, entry.name));
+    const sourcePath = path.join(HUB_ASSETS_DIR, entry.name);
+    if (entry.name === "favicon.svg") {
+      fs.copyFileSync(sourcePath, path.join(distDir, "favicon.svg"));
+      continue;
+    }
+    fs.copyFileSync(sourcePath, path.join(imagesDir, entry.name));
   }
 }
 
@@ -71,8 +92,8 @@ function writeCoursesIndex() {
       class="course-thumb"
       src="/${course.slug}/images/og-square.jpg"
       alt=""
-      width="72"
-      height="72"
+      width="120"
+      height="120"
       loading="lazy"
       decoding="async"
     >
@@ -80,28 +101,14 @@ function writeCoursesIndex() {
       <span class="code">${escapeHtml(course.code)}</span>
       <span class="title">${escapeHtml(course.title)}</span>
       <span class="description">${escapeHtml(course.description)}</span>
+      ${renderTags(course.tags)}
     </span>
   </a>
 </li>`
     )
     .join("\n");
 
-  const courseListJson = courses.map((course) => ({
-    "@type": "Course",
-    name: `${course.code} ${course.title}`,
-    description: course.description,
-    url: `${SITE_ORIGIN}/${course.slug}/`,
-    provider: {
-      "@type": "CollegeOrUniversity",
-      name: "Concordia University",
-      url: "https://www.concordia.ca",
-    },
-    instructor: {
-      "@type": "Person",
-      name: "Adam Simms",
-      url: "https://www.concordia.ca/faculty/adam-simms.html",
-    },
-  }));
+  const jsonLd = hubJsonLd(courses);
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -110,42 +117,31 @@ function writeCoursesIndex() {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(HUB_TITLE)}</title>
   <meta name="description" content="${escapeHtml(HUB_DESCRIPTION)}">
+  <meta name="author" content="${escapeHtml(INSTRUCTOR_NAME)}">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="${HUB_THEME_COLOR}">
+  <meta name="color-scheme" content="light">
   <link rel="canonical" href="${HUB_URL}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/og-square.jpg">
   <meta property="og:title" content="${escapeHtml(HUB_TITLE)}">
   <meta property="og:description" content="${escapeHtml(HUB_DESCRIPTION)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${HUB_URL}">
-  <meta property="og:site_name" content="Photography Courses — Adam Simms">
+  <meta property="og:site_name" content="${escapeHtml(HUB_SITE_NAME)}">
   <meta property="og:locale" content="en">
-  <meta property="og:image" content="${HUB_IMAGE}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="1200">
-  <meta property="og:image:alt" content="Photography course materials by Adam Simms">
+  <meta property="og:image" content="${HUB_OG_IMAGE}">
+  <meta property="og:image:width" content="${HUB_OG_IMAGE_WIDTH}">
+  <meta property="og:image:height" content="${HUB_OG_IMAGE_HEIGHT}">
+  <meta property="og:image:alt" content="${escapeHtml(HUB_OG_IMAGE_ALT)}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${escapeHtml(HUB_TITLE)}">
   <meta name="twitter:description" content="${escapeHtml(HUB_DESCRIPTION)}">
-  <meta name="twitter:image" content="${HUB_IMAGE}">
-  <link rel="icon" href="/phot331/favicon.svg" type="image/svg+xml">
+  <meta name="twitter:image" content="${HUB_OG_IMAGE}">
+  <meta name="twitter:image:alt" content="${escapeHtml(HUB_OG_IMAGE_ALT)}">
   ${buildUmamiScriptTag(analyticsConfig)}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "CollectionPage",
-        "name": ${JSON.stringify(HUB_TITLE)},
-        "description": ${JSON.stringify(HUB_DESCRIPTION)},
-        "url": ${JSON.stringify(HUB_URL)},
-        "inLanguage": "en",
-        "author": {
-          "@type": "Person",
-          "name": "Adam Simms",
-          "url": "https://www.concordia.ca/faculty/adam-simms.html"
-        },
-        "hasPart": ${JSON.stringify(courseListJson)}
-      }
-    ]
-  }
+  ${JSON.stringify(jsonLd, null, 2)}
   </script>
   <style>
     :root {
@@ -154,7 +150,8 @@ function writeCoursesIndex() {
       --border: rgba(0, 0, 0, 0.12);
       --accent: #ec444a;
       --link-underline: rgba(0, 0, 0, 0.6);
-      --max-width: 42rem;
+      --max-width: 56rem;
+      --sidebar-width: 10.5rem;
     }
 
     * { box-sizing: border-box; }
@@ -167,7 +164,23 @@ function writeCoursesIndex() {
       background: #fff;
     }
 
-    main { max-width: var(--max-width); margin: 0 auto; }
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+      gap: 2.5rem 3rem;
+      align-items: start;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 2rem;
+    }
+
+    .content {
+      min-width: 0;
+    }
 
     h1 {
       margin: 0 0 0.5rem;
@@ -177,25 +190,23 @@ function writeCoursesIndex() {
     }
 
     .lede {
-      margin: 0 0 1.5rem;
+      margin: 0 0 2rem;
       color: var(--muted);
     }
 
     .instructor {
-      display: grid;
-      grid-template-columns: 3.5rem 1fr;
-      gap: 1rem;
-      align-items: center;
-      margin: 0 0 2.5rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
       color: inherit;
+      border-bottom: none;
     }
 
     .instructor:hover,
     .instructor:focus-visible {
       color: inherit;
-      border-bottom-color: var(--border);
+      border-bottom-color: transparent;
     }
 
     .instructor:hover .instructor-name,
@@ -205,8 +216,8 @@ function writeCoursesIndex() {
 
     .instructor-photo {
       display: block;
-      width: 3.5rem;
-      height: 3.5rem;
+      width: 5rem;
+      height: 5rem;
       object-fit: cover;
       border-radius: 50%;
     }
@@ -214,18 +225,19 @@ function writeCoursesIndex() {
     .instructor-text {
       display: flex;
       flex-direction: column;
-      gap: 0.15rem;
+      gap: 0.25rem;
       min-width: 0;
     }
 
     .instructor-name {
       font-weight: 500;
+      line-height: 1.3;
       transition: color 0.15s ease;
     }
 
     .instructor-bio {
       color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 0.85rem;
       line-height: 1.45;
     }
 
@@ -254,10 +266,10 @@ function writeCoursesIndex() {
 
     .course-card {
       display: grid;
-      grid-template-columns: 4.5rem 1fr;
-      gap: 1.15rem;
+      grid-template-columns: 7.5rem minmax(0, 1fr);
+      gap: 1.35rem;
       align-items: start;
-      padding: 1.25rem 0;
+      padding: 1.35rem 0;
       color: inherit;
       border-bottom: none;
     }
@@ -265,6 +277,7 @@ function writeCoursesIndex() {
     .course-card:hover,
     .course-card:focus-visible {
       color: inherit;
+      border-bottom-color: transparent;
     }
 
     .course-card:hover .title,
@@ -274,8 +287,8 @@ function writeCoursesIndex() {
 
     .course-thumb {
       display: block;
-      width: 4.5rem;
-      height: 4.5rem;
+      width: 7.5rem;
+      height: 7.5rem;
       object-fit: cover;
     }
 
@@ -306,6 +319,22 @@ function writeCoursesIndex() {
       font-size: 0.95rem;
     }
 
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag {
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 0.12rem 0.45rem;
+      line-height: 1.35;
+    }
+
     footer {
       margin-top: 2.5rem;
       padding-top: 1.5rem;
@@ -317,34 +346,60 @@ function writeCoursesIndex() {
     footer a {
       color: var(--muted);
     }
+
+    @media (max-width: 720px) {
+      main {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .sidebar {
+        position: static;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .instructor {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .instructor-bio {
+        font-size: 0.9rem;
+      }
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>Photography Courses</h1>
-    <p class="lede">Open course materials for undergraduate photography courses at <a href="https://www.concordia.ca">Concordia University</a>.</p>
-    <a class="instructor" href="${INSTRUCTOR_URL}">
-      <img
-        class="instructor-photo"
-        src="/images/adam-simms.jpg"
-        alt="${escapeHtml(INSTRUCTOR_NAME)}"
-        width="56"
-        height="56"
-        loading="lazy"
-        decoding="async"
-      >
-      <span class="instructor-text">
-        <span class="instructor-name">${escapeHtml(INSTRUCTOR_NAME)}</span>
-        <span class="instructor-bio">${escapeHtml(INSTRUCTOR_BIO)}</span>
-      </span>
-    </a>
-    <ul>
+    <aside class="sidebar">
+      <a class="instructor" href="${INSTRUCTOR_URL}">
+        <img
+          class="instructor-photo"
+          src="/images/adam-simms.jpg"
+          alt="${escapeHtml(INSTRUCTOR_NAME)}"
+          width="80"
+          height="80"
+          loading="lazy"
+          decoding="async"
+        >
+        <span class="instructor-text">
+          <span class="instructor-name">${escapeHtml(INSTRUCTOR_NAME)}</span>
+          <span class="instructor-bio">${escapeHtml(INSTRUCTOR_BIO)}</span>
+        </span>
+      </a>
+    </aside>
+    <div class="content">
+      <h1>${escapeHtml(HUB_HEADING)}</h1>
+      <p class="lede">${escapeHtml(HUB_LEDE)}</p>
+      <ul>
 ${items}
-    </ul>
-    <footer>
-      <a href="https://github.com/adamsimms/syllabi">Source on GitHub</a> ·
-      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-    </footer>
+      </ul>
+      <footer>
+        <a href="https://github.com/adamsimms/syllabi">Source on GitHub</a> ·
+        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+      </footer>
+    </div>
   </main>
 </body>
 </html>`;
