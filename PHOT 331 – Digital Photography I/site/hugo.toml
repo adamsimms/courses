@@ -8,6 +8,16 @@ disablePathToLower = true
 disableKinds = ["taxonomy", "term"]
 publishDir = "_site"
 
+[outputs]
+  home = ["HTML", "TXT"]
+  page = ["HTML", "TXT"]
+  section = ["HTML", "TXT"]
+
+[outputFormats.TXT]
+  mediaType = "text/plain"
+  baseName = "index"
+  isPlainText = true
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const templateDir = path.join(rootDir, "templates/hugo-layouts");
+const customScssTemplate = path.join(rootDir, "templates/course-assets/_custom.scss");
 
 function copyDirectory(source, destination) {
   for (const entry of fs.readdirSync(source, { withFileTypes: true })) {
@@ -24,4 +25,8 @@ function copyDirectory(source, destination) {
 export function syncHugoLayouts(siteDir) {
   const destination = path.join(siteDir, "layouts");
   copyDirectory(templateDir, destination);
+
+  const assetsDir = path.join(siteDir, "assets");
+  fs.mkdirSync(assetsDir, { recursive: true });
+  fs.copyFileSync(customScssTemplate, path.join(assetsDir, "_custom.scss"));
 }

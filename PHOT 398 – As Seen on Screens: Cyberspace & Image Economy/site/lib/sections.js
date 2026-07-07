@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { annotateAssetLinks } from "../../../scripts/asset-links.mjs";
 import { siteUrl } from "../../../scripts/site-path.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -74,7 +75,9 @@ export function extractSection(content, title, { level = 2, until, exact = true 
 }
 
 export function rewriteMdLinksMarkdown(text) {
-  return text.replace(/\[([^\]]+)\]\(([^)]+\.md)(#[^)]+)?\)/g, (_, label, file, hash) => {
+  let result = annotateAssetLinks(text, courseDir);
+
+  result = result.replace(/\[([^\]]+)\]\(([^)]+\.md)(#[^)]+)?\)/g, (_, label, file, hash) => {
     let target = hugoLinkMap[file] || `/${file.replace(/\.md$/, "")}/`;
     if (file === "assignments.md" && hash && hugoAnchorMap[hash]) {
       target = hugoAnchorMap[hash];
@@ -82,6 +85,12 @@ export function rewriteMdLinksMarkdown(text) {
     }
     return `[${label}](${internalUrl(target)}${hash || ""})`;
   });
+
+  result = result.replace(/\[([^\]]+)\]\((assets\/[^)]+)\)/g, (_, label, assetPath) => {
+    return `[${label}](${internalUrl(`/${assetPath}`)})`;
+  });
+
+  return result;
 }
 
 export function extractPageMarkdown(filename, sectionTitle, pageTitle, options = {}) {

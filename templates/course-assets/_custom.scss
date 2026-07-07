@@ -1,0 +1,334 @@
+/* Cargo-inspired overrides for Hugo Book course sites */
+
+:root {
+  --body-font-size: 17px;
+  --body-line-height: 1.65;
+  --course-panel: #ffffff;
+  --course-text: rgba(0, 0, 0, 0.75);
+  --course-text-muted: rgba(0, 0, 0, 0.5);
+  --course-border: rgba(0, 0, 0, 0.12);
+  --course-accent: #ec444a;
+  --course-link-underline: rgba(0, 0, 0, 0.6);
+
+  --body-font-color: var(--course-text);
+  --color-link: var(--course-text);
+  --color-visited-link: var(--course-text);
+  --color-accent: var(--course-accent);
+  --gray-100: #ececec;
+  --gray-200: #dddddd;
+  --gray-500: rgba(0, 0, 0, 0.45);
+}
+
+.markdown {
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  color: var(--course-text);
+  max-width: 66rem;
+}
+
+/* Cargo link style */
+.markdown a {
+  color: var(--course-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+.markdown a:hover {
+  border-bottom-color: var(--course-accent);
+}
+
+.markdown a.external-link {
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+.external-link-icon {
+  display: inline-block;
+  margin-left: 0.15em;
+  font-size: 0.85em;
+  line-height: 1;
+  opacity: 0.55;
+}
+
+.course-hero figcaption a {
+  border-bottom: none;
+}
+
+/* Breadcrumbs */
+.book-breadcrumbs {
+  margin: 0 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--course-text-muted);
+}
+
+.book-breadcrumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.book-breadcrumbs li + li::before {
+  content: "›";
+  margin-right: 0.35rem;
+  color: var(--course-text-muted);
+}
+
+.book-breadcrumbs a {
+  color: inherit;
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+.book-breadcrumbs li[aria-current="page"] {
+  color: var(--course-text);
+}
+
+/* Overview utilities */
+.page-utils {
+  margin: 0 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--course-border);
+  font-size: 0.9rem;
+  color: var(--course-text-muted);
+}
+
+.page-utils a {
+  color: var(--course-text);
+}
+
+/* Sidebar brand */
+.book-brand {
+  margin-bottom: 1.25rem;
+  line-height: 1.25;
+}
+
+.book-brand-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.book-brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.book-brand-code {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--course-text-muted);
+}
+
+.book-brand-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: var(--course-text);
+}
+
+.book-brand-title em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Flat sidebar — section labels + dividers */
+.book-menu nav > ul > li > a:not([href]) {
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--course-text-muted);
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  pointer-events: none;
+  border-bottom: none;
+}
+
+.book-menu nav > ul > li:first-child > a:not([href]) {
+  margin-top: 0;
+}
+
+.book-menu nav > ul > li > a:not([href])::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0.45rem;
+  margin-bottom: 0.5rem;
+  background: var(--course-border);
+}
+
+.book-menu nav ul li a {
+  font-size: 0.95rem;
+  border-bottom: none;
+  padding: 0.12rem 0;
+}
+
+.book-menu nav ul li a.active {
+  color: var(--course-accent);
+}
+
+.book-menu nav li ul {
+  padding-left: 0;
+  margin-bottom: 0.25rem;
+}
+
+.book-menu input.toggle,
+.book-menu label > img.book-icon {
+  display: none;
+}
+
+.book-menu .book-search {
+  display: none !important;
+}
+
+/* Hide TOC on home page only */
+.book-kind-home .book-toc {
+  display: none !important;
+}
+
+/* Home page — image only */
+.book-kind-home .book-header {
+  display: none;
+}
+
+.book-kind-home .markdown.book-article {
+  padding: 0;
+  max-width: none;
+}
+
+.book-kind-home .course-hero {
+  margin: 0;
+  border-radius: 0;
+}
+
+.course-hero {
+  position: relative;
+  margin: 0 0 2.5rem;
+  display: block;
+}
+
+.course-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.course-hero figcaption {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1;
+  padding: 0.35rem 0.6rem;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.94);
+  line-height: 1.3;
+}
+
+.course-hero figcaption a:hover {
+  text-decoration: underline;
+}
+
+/* Typography */
+.markdown h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+  color: var(--course-text);
+}
+
+.markdown h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  color: var(--course-text);
+}
+
+.markdown h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--course-text);
+}
+
+.markdown table {
+  font-size: 0.95rem;
+}
+
+.markdown blockquote {
+  border-left-width: 3px;
+}
+
+.markdown hr {
+  background: var(--course-border);
+  border: 0;
+  height: 1px;
+}
+
+/* Print syllabus */
+.print-syllabus .print-actions {
+  margin: 0 0 1.5rem;
+}
+
+.print-syllabus button {
+  font: inherit;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--course-border);
+  background: #fff;
+  cursor: pointer;
+}
+
+.print-syllabus button:hover {
+  border-color: var(--course-accent);
+}
+
+.book-copyright {
+  margin-top: 2rem;
+  color: var(--course-text-muted);
+  font-size: 0.85rem;
+}
+
+.book-copyright a {
+  color: var(--course-text);
+  border-bottom: 1px solid var(--course-link-underline);
+}
+
+@media print {
+  .no-print,
+  .book-menu,
+  .book-header,
+  .book-footer,
+  .book-toc,
+  .course-crosslinks,
+  .book-breadcrumbs,
+  .page-utils {
+    display: none !important;
+  }
+
+  .book-page {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .markdown {
+    max-width: none;
+  }
+
+  .markdown a {
+    border-bottom: none;
+  }
+
+  .markdown a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+}

@@ -1,0 +1,4 @@
+{{- if .Page.Params.sourceFile -}}
+  {{- return (printf "%s/edit/main/%s" .Site.Params.BookRepo .Page.Params.sourceFile) -}}
+{{- end -}}
+{{- return "" -}}

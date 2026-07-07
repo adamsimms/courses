@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { annotateAssetLinks } from "../../../scripts/asset-links.mjs";
 import { siteUrl } from "../../../scripts/site-path.mjs";
 import { externalAssetUrl } from "../../../scripts/sample-releases.mjs";
 
@@ -77,7 +78,9 @@ export function extractSection(content, title, { level = 2, until, exact = true 
 }
 
 export function rewriteMdLinksMarkdown(text) {
-  let result = text.replace(/\[([^\]]+)\]\(([^)]+\.md)(#[^)]+)?\)/g, (_, label, file, hash) => {
+  let result = annotateAssetLinks(text, courseDir);
+
+  result = result.replace(/\[([^\]]+)\]\(([^)]+\.md)(#[^)]+)?\)/g, (_, label, file, hash) => {
     let target = hugoLinkMap[file] || `/${file.replace(/\.md$/, "")}/`;
     if (file === "assignments.md" && hash && hugoAnchorMap[hash]) {
       target = hugoAnchorMap[hash];

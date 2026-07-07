@@ -1,20 +1,8 @@
-# Photography Courses — Adam Simms
+# Photography Syllabi — Adam Simms
 
-Canonical course materials for photography courses I have developed, designed, and taught. This repository is a reference archive in Markdown—for colleagues, past and future students, and anyone looking for ideas when building a course outline. It is also my own working source when I teach these courses again.
+Open syllabi and course materials for undergraduate photography courses I have developed, designed, and taught. [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) has taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
 
-## About
-
-[Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) has taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
-
-## Courses
-
-Each course has a syllabus, assignments, schedule, and resources — all self-contained in its course folder.
-
----
-
-Open course materials for undergraduate photography courses taught by [Adam Simms](https://github.com/adamsimms).
-
-This repository collects syllabi, weekly schedules, assignment briefs, and curated resources for each course. Materials are maintained as Markdown for easy reading on GitHub and straightforward updates from semester to semester. Institution and semester details are noted on each course page.
+This repository is a reference archive in Markdown—for colleagues, past and future students, and anyone looking for ideas when building a course outline. It is also my own working source when I teach these courses again. Each course folder is self-contained: syllabus, assignments, schedule, and resources. Materials are maintained for easy reading on GitHub and straightforward updates from semester to semester. Institution and semester details are noted on each course page.
 
 **Repository:** [github.com/adamsimms/syllabi](https://github.com/adamsimms/syllabi)
 
@@ -64,7 +52,7 @@ Large PHOT 332 sample archives (~2.4 GB total) are on [GitHub Releases](https://
 
 ## Publishing
 
-Course sites are published at `syllabi.adamsimms.xyz/photXXX/` (e.g. `syllabi.adamsimms.xyz/phot331/`).
+Syllabus sites are published at `syllabi.adamsimms.xyz/photXXX/` (e.g. `syllabi.adamsimms.xyz/phot331/`).
 
 ```bash
 npm run build   # outputs to dist/
