@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "phot331",
+    "siteDir": "PHOT 331 – Digital Photography I/site",
+    "code": "PHOT 331",
+    "title": "Digital Photography I",
+    "term": "Winter 2025",
+    "description": "Introductory digital photography: scanning, RAW processing, colour management, printing, and composite image-making."
+  },
+  {
+    "slug": "phot332",
+    "siteDir": "PHOT 332 – Digital Photography II/site",
+    "code": "PHOT 332",
+    "title": "Digital Photography II",
+    "term": "Winter 2025",
+    "description": "Advanced digital photography building technical proficiency and a personalized artistic vision through workshops and major assignments."
+  },
+  {
+    "slug": "phot398",
+    "siteDir": "PHOT 398 – As Seen on Screens: Cyberspace & Image Economy/site",
+    "code": "PHOT 398",
+    "title": "As Seen on Screens: Cyberspace & Image Economy",
+    "term": null,
+    "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project."
+  },
+  {
+    "slug": "phot400",
+    "siteDir": "PHOT 400 – Advanced Workshop in Photography/site",
+    "code": "PHOT 400",
+    "title": "Advanced Workshop in Photography",
+    "term": "Fall 2025 – Winter 2025",
+    "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship."
+  }
+]

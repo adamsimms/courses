@@ -1,0 +1,12 @@
+{
+  "name": "courses",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-all.mjs",
+    "clean": "rm -rf dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

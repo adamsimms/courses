@@ -60,6 +60,29 @@ When updating an existing offering for a new term, consider archiving the previo
 
 Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if large files are missing.
 
+## Publishing
+
+Course sites are built for path-based hosting at `adamsimms.xyz/courses/photXXX/`.
+
+```bash
+npm run build   # outputs to dist/
+```
+
+Cloudflare Pages project: **adamsimms-courses** (`wrangler.toml`). Preview: [adamsimms-courses.pages.dev/courses/](https://adamsimms-courses.pages.dev/courses/).
+
+**Dashboard settings** (Workers & Pages → adamsimms-courses → Settings → Builds):
+
+| Setting | Value |
+|---------|-------|
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| `HUGO_VERSION` | `0.164.0` |
+| `GIT_LFS_ENABLED` | `true` |
+
+Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `adamsimms.xyz` under Custom domains when ready.
+
+Large PHOT 332 sample archives (>24 MiB) are linked from GitHub rather than hosted on Pages.
+
 ## License
 
 Unless otherwise noted, course materials in this repository are published under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt these materials for any purpose, provided you give appropriate credit.
