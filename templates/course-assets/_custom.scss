@@ -70,7 +70,7 @@
 }
 
 .book-menu nav > ul.course-sidebar-hub {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 .book-menu nav > ul.course-sidebar-hub a {
@@ -131,38 +131,62 @@
   font-weight: 700;
 }
 
-/* Flat sidebar — section labels + dividers */
+.book-brand-terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.15rem;
+}
+
+.book-brand-term {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--course-text-muted);
+  border: 1px solid var(--course-border);
+  padding: 0.1rem 0.4rem;
+  line-height: 1.35;
+}
+
+/* Flat sidebar — even link rhythm + section dividers */
+.book-menu nav ul li {
+  margin: 0;
+}
+
 .book-menu nav > ul > li > a:not([href]) {
   display: block;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.7rem;
   letter-spacing: 0.05em;
+  line-height: 1.3;
   color: var(--course-text-muted);
-  margin-top: 1.25rem;
+  margin-top: 1.35rem;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding: 0;
   pointer-events: none;
   border-bottom: none;
 }
 
 .book-menu nav > ul > li:first-child > a:not([href]) {
-  margin-top: 0;
+  margin-top: 0.15rem;
 }
 
 .book-menu nav > ul > li > a:not([href])::after {
   content: "";
   display: block;
   height: 1px;
-  margin-top: 0.45rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.3rem;
   background: var(--course-border);
 }
 
 .book-menu nav ul li a {
   font-size: 0.95rem;
+  line-height: 1.35;
   border-bottom: none;
-  padding: 0.12rem 0;
+  padding: 0.3rem 0;
 }
 
 .book-menu nav ul li a.active {
@@ -171,7 +195,7 @@
 
 .book-menu nav li ul {
   padding-left: 0;
-  margin-bottom: 0.25rem;
+  margin: 0;
 }
 
 .book-menu input.toggle,

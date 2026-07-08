@@ -42,6 +42,7 @@ publishDir = "_site"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 398"
   courseTitle = "As Seen on Screens: <em>Cyberspace & Image Economy</em>"
+  courseTerms = ["Fall 2021"]
   appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
   socialImage = "images/curiosity-selfie.jpg"
   socialImageOg = "images/og-square.jpg"

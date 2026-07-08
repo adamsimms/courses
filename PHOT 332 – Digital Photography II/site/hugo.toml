@@ -42,6 +42,7 @@ publishDir = "_site"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 332"
   courseTitle = "Digital Photography II"
+  courseTerms = ["Winter 2025"]
   appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
   socialImage = "images/conelrad-v09.jpg"
   socialImageOg = "images/og-square.jpg"

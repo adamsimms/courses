@@ -42,6 +42,7 @@ publishDir = "_site"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 300"
   courseTitle = "Photographic Vision: Theory & Practice II"
+  courseTerms = ["Fall 2024"]
   appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
   socialImage = "images/camera-obscura.jpg"
   socialImageOg = "images/og-square.jpg"

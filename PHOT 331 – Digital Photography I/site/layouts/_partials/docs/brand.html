@@ -6,6 +6,13 @@
     <span class="book-brand-text">
       <small class="book-brand-code">{{ .Site.Params.courseCode }}</small>
       <span class="book-brand-title">{{ .Site.Params.courseTitle | safeHTML }}</span>
+      {{- with .Site.Params.courseTerms -}}
+      <span class="book-brand-terms">
+        {{- range . -}}
+        <span class="book-brand-term">{{ . }}</span>
+        {{- end -}}
+      </span>
+      {{- end -}}
     </span>
   </a>
 </h2>

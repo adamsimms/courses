@@ -42,6 +42,7 @@ publishDir = "_site"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 400"
   courseTitle = "Advanced Workshop in Photography"
+  courseTerms = ["Fall 2024"]
   appointmentsUrl = "https://cal.com/adam-simms-ivi9mt/1-hour-meeting"
   socialImage = "images/workshop-hero.jpg"
   socialImageOg = "images/og-square.jpg"
