@@ -16,8 +16,7 @@ export function stripRepoNav(content) {
   return content
     .replace(/^# [^\n]+\n\n/m, "")
     .replace(/^\[Syllabus\]\(README\.md\)[^\n]*\n\n(?:---\n\n)?/m, "")
-    .replace(/^\*\*Syllabus\*\*[^\n]*\n\n/m, "")
-    .replace(/^---\n\n/m, "");
+    .replace(/^\*\*Syllabus\*\*[^\n]*\n\n/m, "");
 }
 
 const hugoLinkMap = {

@@ -301,6 +301,13 @@
   color: var(--course-text);
 }
 
+.markdown h2[id^="week-"] {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .markdown h3 {
   font-size: 1.1rem;
   font-weight: 600;
