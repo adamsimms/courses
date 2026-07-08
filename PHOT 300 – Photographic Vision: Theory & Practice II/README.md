@@ -5,14 +5,7 @@
 ## Course Details
 
 - **Credits:** 6-credit course (26 weeks across two terms)
-- **Session:** Fall 2024 – Winter 2025 (September 3, 2024 – April 12, 2025)
-- **Time:** Tuesdays, 1:30–5:30 PM
-
----
-
-## Prerequisites
-
-The following courses must be completed previously: PHOT 210 and ARTH 267. Enrollment in the Major in Photography is required.
+- **Session:** Fall 2024 – Winter 2025
 
 ---
 
@@ -54,7 +47,7 @@ Individual meetings can be arranged by [booking an appointment](https://cal.com/
 
 ## Fees + Materials
 
-**Photography department fee:** All students must pay $160 for each 6-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the professor by **Week 4** (September 24, 2024). The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.
+**Photography department fee:** All students must pay $160 for each 6-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the professor by **Week 4**. The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.
 
 Students must bear the cost of all photographic materials needed to complete their assignments.
 

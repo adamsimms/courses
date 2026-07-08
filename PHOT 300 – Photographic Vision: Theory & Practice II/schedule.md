@@ -2,13 +2,11 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Tuesdays, 1:30–5:30 PM
-
-*Subject to change. Fall 2024 semester shown below.*
+*Subject to change.*
 
 ---
 
-## Week 1 — September 3
+## Week 1
 
 - Instructor, teaching assistant, and student introductions
 - PHOT 210 check-in
@@ -17,14 +15,14 @@
 
 ---
 
-## Week 2 — September 10
+## Week 2
 
 - Students present their former work and discuss their intention for their yearlong project
 - Workshop: bring work-in-progress proposals
 
 ---
 
-## Week 3 — September 17
+## Week 3
 
 - Students present their former work and discuss their intention for their yearlong project
 - Review mid-term requirements
@@ -34,7 +32,7 @@
 
 ---
 
-## Week 4 — September 24
+## Week 4
 
 - Professor and Teaching Assistant show their work
 - Field trip: Jinyoung Kim at Dazibao + Geneviève Cadieux at Blouin Division
@@ -43,7 +41,7 @@
 
 ---
 
-## Week 5 — October 1
+## Week 5
 
 - Lecture on contemporary art that relates and corresponds to the issues, ideas and production methods tailored to students in this class
 - Organization of mid-term and end-of-term critiques
@@ -52,49 +50,49 @@
 
 ---
 
-## Week 6 — October 8
+## Week 6
 
 - Affinities presentations (students present the work of other artists with whom they have affinities)
 
 ---
 
-## Week 7 — October 15 — Reading Week (No Class)
+## Week 7 — Reading Week (No Class)
 
 ---
 
-## Week 8 — October 22
+## Week 8
 
 - Mid-term presentations and critiques: Group A
 
 ---
 
-## Week 9 — October 29
+## Week 9
 
 - Mid-term presentations and critiques: Group B
 
 ---
 
-## Week 10 — November 5
+## Week 10
 
 - Individual meetings: students are required to show work-in-progress for their end-of-term projects
 - Studio time
 
 ---
 
-## Week 11 — November 12
+## Week 11
 
 - Individual meetings: students are required to show work-in-progress for their end-of-term projects
 - Studio time
 
 ---
 
-## Week 12 — November 19
+## Week 12
 
 - End-of-term presentations and critiques: Group A
 
 ---
 
-## Week 13 — November 26
+## Week 13
 
 - End-of-term presentations and critiques: Group B
 
@@ -102,8 +100,8 @@
 
 ## Other Important Dates
 
-See [Concordia undergraduate academic dates](https://www.concordia.ca/students/undergraduate/undergraduate-academic-dates.html#fall2024).
+See [Concordia undergraduate academic dates](https://www.concordia.ca/students/undergraduate/undergraduate-academic-dates.html) for official university deadlines.
 
-- **Monday, September 16** — Last day to add fall-term and two-term courses; deadline for withdrawal with tuition refund (DNE)
-- **Monday, October 14 – Sunday, October 20** — Reading week
-- **Monday, December 2** — Last day for academic withdrawal (DISC) from fall-term courses
+- **Before Week 3** — Last day to add fall-term and two-term courses; deadline for withdrawal with tuition refund (DNE)
+- **Week 7** — Reading week
+- **After Week 13** — Last day for academic withdrawal (DISC) from fall-term courses

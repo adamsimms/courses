@@ -32,7 +32,7 @@ Then open http://localhost:1313
 - **Custom styles:** `assets/_custom.scss` — typography and layout overrides
 - **Site structure:**
   - `/` — home (hero image only)
-  - `/course/` — overview, schedule, rules, student services, appointments
+  - `/course/` — overview, schedule, rules, appointments
   - `/assignments/` — assignment briefs
 
 Edit the Markdown files in the parent course folder, then run `npm run build` to regenerate the site.

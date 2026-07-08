@@ -50,7 +50,7 @@ Send your layered files via [WeTransfer](https://wetransfer.com/) to the instruc
 
 ## Assignment #3: Composite Triptych (30%)
 
-**Due:** Week 12 or Week 13 (presentation day)
+**Due:** Week 12 / Week 13 (presentation day)
 
 For this final assignment, create a photomontage triptych (3 images) that reflects your distinct voice as an image-maker and the thematic and formal concerns you have developed throughout the semester. This project will demonstrate your technical proficiency in Photoshop and your ability to create cohesive, meaningful visual narratives.
 

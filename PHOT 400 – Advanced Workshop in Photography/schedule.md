@@ -2,8 +2,6 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Thursdays, 1:30–5:30 PM
-
 ---
 
 ## Week 1

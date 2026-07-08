@@ -24,7 +24,6 @@ const hugoLinkMap = {
   "README.md": "/course/overview/",
   "assignments.md": "/assignments/",
   "schedule.md": "/course/schedule/",
-  "resources.md": "/course/student-services/",
 };
 
 const hugoAnchorMap = {

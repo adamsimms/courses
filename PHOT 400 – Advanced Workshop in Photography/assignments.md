@@ -6,7 +6,7 @@ Students will be required to present in-progress work, engage in group critiques
 
 Students must respect their assigned presentation slots. Attendance at all critiques is mandatory; failure to attend will negatively impact the participation grade, potentially leading to a failing mark.
 
-*Grading weights below apply to the first term (50% of the total course grade).*
+*Grading weights below apply to the first term (40% of the total course grade).*
 
 ---
 
@@ -25,7 +25,7 @@ Students must submit a written proposal that details the goals and motivations o
 
 ## Mid-Term Presentation (10%)
 
-**Due:** Week 8 and Week 9
+**Due:** Week 8 / Week 9
 
 Students are required to present their in-progress work for the purpose of receiving peer feedback. The work shown at the midterm critiques should reflect the student's efforts to address the challenges outlined in their project proposal and demonstrate progress toward resolving these issues. The presentation should include:
 
@@ -37,24 +37,17 @@ Students are required to present their in-progress work for the purpose of recei
 
 ## Final Presentation and Critique (20%)
 
-**Due:** Week 12 and Week 13
+**Due:** Week 12 / Week 13
 
 Students are required to present their final yearlong project along with a succinct project statement for the purpose of receiving peer feedback. Students are expected to introduce their work and discuss the resolutions outlined in their project proposal.
 
 ---
 
-## Class Participation (10%)
-
-Critical feedback and involvement in class discussions and presentations are required. This includes affinities presentations in Week 6, where students present the work of artists with whom they have affinities. See [schedule](schedule.md) for details. Expectations are reviewed in Week 5.
-
----
-
-## Term Total: 50%
+## Term Total: 40%
 
 | Assignment | Weight |
 |------------|--------|
 | Proposal | 10% |
 | Mid-Term Presentation | 10% |
 | Final Presentation and Critique | 20% |
-| Class Participation | 10% |
-| **Total** | **50%** |
+| **Total** | **40%** |

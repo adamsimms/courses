@@ -208,19 +208,6 @@ export function runCourseGenerator({
     extractPageMarkdown("README.md", "Rules", "Rules")
   );
 
-  writePage(
-    contentDir,
-    "course/student-services.md",
-    {
-      title: "Student Services",
-      weight: 50,
-      ...seoMeta(courseSlug, "student-services"),
-      ...contentSitemap(0.7),
-      ...sourceMeta(courseFolderName, "resources.md", "student-services"),
-    },
-    extractPageMarkdown("resources.md", "Student Services", "Student Services")
-  );
-
   writeSectionIndex(contentDir, "assignments/_index.md", "Assignments", 20);
 
   for (const assignment of assignments) {

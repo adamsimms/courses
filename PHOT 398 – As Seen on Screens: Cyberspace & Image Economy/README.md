@@ -6,7 +6,6 @@
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
-- **Time:** Fridays, 1:30–5:30 PM Eastern Time
 - **Delivery:** Class meetings with optional in-person activities
 
 ---

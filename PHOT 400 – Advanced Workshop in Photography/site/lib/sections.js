@@ -24,14 +24,12 @@ const hugoLinkMap = {
   "README.md": "/course/overview/",
   "assignments.md": "/assignments/",
   "schedule.md": "/course/schedule/",
-  "resources.md": "/course/student-services/",
 };
 
 const hugoAnchorMap = {
   "#proposal-10": "/assignments/proposal/",
   "#mid-term-presentation-10": "/assignments/mid-term-presentation/",
   "#final-presentation-and-critique-20": "/assignments/final-presentation-and-critique/",
-  "#class-participation-10": "/assignments/class-participation/",
 };
 
 export function readCourseFile(filename) {

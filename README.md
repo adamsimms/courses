@@ -47,7 +47,7 @@ A yearlong capstone studio course for final-year photography students developing
 
 ## Adding a Course
 
-Copy an existing course folder to a new folder and adapt the content. Each course folder is self-contained — policies, grading scale, and student services are included in the syllabus and resources pages.
+Copy an existing course folder to a new folder and adapt the content. Each course folder is self-contained — policies and grading scale are included in the syllabus and resources pages.
 
 When updating an existing offering for a new term, consider archiving the previous term in a subfolder (e.g. `2025-winter/`) rather than overwriting in place.
 

@@ -6,8 +6,6 @@
 
 ## Assignment #1: Group Presentations (20%)
 
-**Due:** See [schedule](schedule.md) — one presentation per group between Weeks 3–10
-
 In small groups, students will present and moderate an engaging in-class discussion based on one of the assigned readings. This assignment encourages critical thinking, collaboration, and the ability to connect theoretical concepts to contemporary art and culture.
 
 ### Presentation (45 minutes)
@@ -85,7 +83,7 @@ Submit the following via WeTransfer to the professor:
 
 ## Assignment #3: Looking Through The Screen (40%)
 
-**Due:** Week 12 or Week 13
+**Due:** Week 12 / Week 13
 
 This assignment challenges you to refine and expand your work while exploring how digital platforms influence the presentation and interpretation of photography. You may revisit existing images from this course, work from other classes, and/or create new images. Your final project should demonstrate conceptual depth, technical proficiency, and creative engagement with the impact of digital technologies on photography. The project must exist entirely online as a website, emphasizing the screen as a platform for engaging with photography. No prints are required.
 

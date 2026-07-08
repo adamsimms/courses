@@ -5,13 +5,6 @@
 ## Course Details
 
 - **Credits:** 6-credit course (26 weeks across two terms)
-- **Time:** Thursdays, 1:30–5:30 PM
-
----
-
-## Prerequisites
-
-The following courses must be completed previously: PHOT 300; ARTH 359. Students must have completed 48 credits in the Major in Photography before enrolling.
 
 ---
 
@@ -66,10 +59,9 @@ Students must bear the cost of all photographic materials needed to complete the
 | [Proposal](assignments.md#proposal-10) | 10% |
 | [Mid-Term Presentation](assignments.md#mid-term-presentation-10) | 10% |
 | [Final Presentation and Critique](assignments.md#final-presentation-and-critique-20) | 20% |
-| [Class Participation](assignments.md#class-participation-10) | 10% |
-| **Total** | **50%** |
+| **Total** | **40%** |
 
-The remaining 50% of the course grade is assessed in the second term.
+The remaining 60% of the course grade is assessed in the second term.
 
 ### Evaluation Criteria
 

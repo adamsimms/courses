@@ -2,13 +2,11 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Wednesdays, 8:30 AM–12:30 PM
-
 Please note that the following schedule is subject to change.
 
 ---
 
-## Week 1 — January 15
+## Week 1
 
 - Introductions
 - Review course outline
@@ -20,7 +18,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 2 — January 22
+## Week 2
 
 - Colour management: colour spaces, profiles, and calibration
 - From analog to digital
@@ -29,7 +27,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 3 (Remote) — January 29
+## Week 3 (Remote)
 
 - RAW conversion workflow
 - Getting comfortable with Adobe Photoshop: histogram, cropping, smart objects, organizing layers, etc.
@@ -38,7 +36,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 4 — February 5
+## Week 4
 
 - Image correction techniques: selections, masks, repairing, etc.
 - Printing workflow
@@ -48,7 +46,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 5 — February 12
+## Week 5
 
 - Printing workflow
 - Printer demo
@@ -58,17 +56,17 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 6 — February 19
+## Week 6
 
 - Printing studio time
 
 ---
 
-## Week 7 — Reading Week (No Class) — February 26
+## Week 7 — Reading Week (No Class)
 
 ---
 
-## Week 8 — March 5
+## Week 8
 
 - Workflows for consistency across a series of images
 - Photoshop AI and image generation
@@ -80,7 +78,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 9 — March 12
+## Week 9
 
 - Composite images
 - File sizing & resolution, upsampling, noise reduction, etc.
@@ -89,7 +87,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 10 — March 19
+## Week 10
 
 - Preparing files for various outputs: web, projectors, etc.
 - Individual meetings
@@ -97,7 +95,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 11 — March 26
+## Week 11
 
 - Digital asset management (DAM) Part II
 - Class discussion on reading #2: [*In Defense of the Poor Image*](https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image) by Hito Steyerl
@@ -106,7 +104,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 12 — April 2
+## Week 12
 
 - Final presentations and critiques: Group A
 
@@ -114,7 +112,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 13 — April 9
+## Week 13
 
 - Final presentations and critiques: Group B
 
@@ -124,5 +122,8 @@ Please note that the following schedule is subject to change.
 
 ## Other Important Dates
 
-- **January 27, 2025** — Deadline for withdrawal with tuition refund (DNE) from fall-term and two-term courses
-- **April 12, 2025** — Deadline for academic withdrawal (DISC) from winter term courses
+See [Concordia undergraduate academic dates](https://www.concordia.ca/students/undergraduate/undergraduate-academic-dates.html) for official university deadlines.
+
+- **Before Week 3** — Deadline for withdrawal with tuition refund (DNE) from fall-term and two-term courses
+- **Week 7** — Reading week
+- **After Week 13** — Deadline for academic withdrawal (DISC) from winter term courses

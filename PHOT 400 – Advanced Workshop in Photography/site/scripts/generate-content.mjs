@@ -43,14 +43,5 @@ runCourseGenerator({
       pageTitle: "Final Presentation and Critique",
       sourceAnchor: "final-presentation-and-critique",
     },
-    {
-      path: "assignments/class-participation.md",
-      title: "Class Participation",
-      weight: 40,
-      seoKey: "class-participation",
-      section: "Class Participation",
-      pageTitle: "Class Participation",
-      sourceAnchor: "class-participation",
-    },
   ],
 });

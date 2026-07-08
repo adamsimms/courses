@@ -6,7 +6,6 @@
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
-- **Time:** Wednesdays, 8:30 AM–12:30 PM
 
 ---
 
@@ -15,12 +14,6 @@
 An introductory studio course investigating the technical and creative aspects of digital photography. This course provides students with an understanding of the digital image and a practical application of the tools within their personal approach to photography. Students explore the production of digital photographs, emphasizing the manipulation of images with software and the preparation for different formats. Issues related to the use of digital imagery within the larger context of photography are explored.
 
 Students who have received credit for this topic under a PHOT 498 number may not take this course for credit.
-
----
-
-## Prerequisites
-
-PHOT 210; PHOT 221 previously or concurrently; and enrolment in the Major in Photography, or written permission of the program director.
 
 ---
 

@@ -2,8 +2,6 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Wednesdays, 8:30 AM–12:30 PM
-
 Please note that the following schedule is subject to change.
 
 ---

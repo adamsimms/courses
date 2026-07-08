@@ -477,6 +477,10 @@ function writeRedirects() {
   rules.push("/phot400/readings /phot400/course/schedule/ 301");
   rules.push("/phot400/readings/ /phot400/course/schedule/ 301");
 
+  // phot400 Class Participation page removed.
+  rules.push("/phot400/assignments/class-participation /phot400/assignments/ 301");
+  rules.push("/phot400/assignments/class-participation/ /phot400/assignments/ 301");
+
   // Delivery page removed for selected courses.
   rules.push("/phot331/course/delivery /phot331/course/overview/ 301");
   rules.push("/phot331/course/delivery/ /phot331/course/overview/ 301");

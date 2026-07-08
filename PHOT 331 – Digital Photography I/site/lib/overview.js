@@ -29,7 +29,6 @@ Please refer to the [Concordia Academic Calendar, section 16.3.3](https://www.co
 
 export function buildOverviewMarkdown() {
   const raw = readCourseFile("README.md");
-  const prerequisites = extractSection(raw, "Prerequisites");
   const courseDescription = extractSection(raw, "Description");
   const overviewBlock = extractSection(raw, "Overview");
   const objectives = extractSection(overviewBlock, "Objectives", { level: 3 });
@@ -37,10 +36,6 @@ export function buildOverviewMarkdown() {
   const fees = extractSection(raw, "Fees + Materials");
 
   const markdown = `# Overview
-
-## Prerequisites
-
-${prerequisites}
 
 ## Course Description
 
