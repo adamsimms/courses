@@ -477,6 +477,32 @@ function writeRedirects() {
   rules.push("/phot400/readings /phot400/course/schedule/ 301");
   rules.push("/phot400/readings/ /phot400/course/schedule/ 301");
 
+  // Delivery page removed for selected courses.
+  rules.push("/phot331/course/delivery /phot331/course/overview/ 301");
+  rules.push("/phot331/course/delivery/ /phot331/course/overview/ 301");
+  rules.push("/phot300/course/delivery /phot300/course/overview/ 301");
+  rules.push("/phot300/course/delivery/ /phot300/course/overview/ 301");
+  rules.push("/phot332/course/delivery /phot332/course/overview/ 301");
+  rules.push("/phot332/course/delivery/ /phot332/course/overview/ 301");
+  rules.push("/phot398/course/delivery /phot398/course/overview/ 301");
+  rules.push("/phot398/course/delivery/ /phot398/course/overview/ 301");
+
+  // General Info pages removed across all courses.
+  for (const course of courses) {
+    rules.push(`/${course.slug}/general /${course.slug}/course/overview/ 301`);
+    rules.push(`/${course.slug}/general/ /${course.slug}/course/overview/ 301`);
+    rules.push(`/${course.slug}/general/faculty-of-fine-arts /${course.slug}/course/overview/ 301`);
+    rules.push(`/${course.slug}/general/faculty-of-fine-arts/ /${course.slug}/course/overview/ 301`);
+    rules.push(`/${course.slug}/general/photography-program /${course.slug}/course/overview/ 301`);
+    rules.push(`/${course.slug}/general/photography-program/ /${course.slug}/course/overview/ 301`);
+  }
+
+  // Appointments moved under Course.
+  for (const course of courses) {
+    rules.push(`/${course.slug}/appointments /${course.slug}/course/appointments/ 301`);
+    rules.push(`/${course.slug}/appointments/ /${course.slug}/course/appointments/ 301`);
+  }
+
   fs.writeFileSync(path.join(distDir, "_redirects"), `${rules.join("\n")}\n`);
 }
 
@@ -551,9 +577,13 @@ for (const course of courses) {
   syncHugoLayouts(sitePath);
 
   console.log(`Building ${course.code} → /${course.slug}/`);
+  const output = path.join(sitePath, "_site");
+  // Hugo does not remove pages deleted from content; wipe publishDir first.
+  if (fs.existsSync(output)) {
+    fs.rmSync(output, { recursive: true, force: true });
+  }
   run("npm run build", sitePath);
 
-  const output = path.join(sitePath, "_site");
   const destination = path.join(distDir, course.slug);
   fs.cpSync(output, destination, { recursive: true });
 }

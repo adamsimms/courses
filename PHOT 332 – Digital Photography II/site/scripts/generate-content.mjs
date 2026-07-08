@@ -11,6 +11,7 @@ runCourseGenerator({
   siteDir: path.resolve(__dirname, ".."),
   assetSync: "filtered",
   includeReadingsPage: false,
+  includeDeliveryPage: false,
   buildOverviewMarkdown,
   extractPageMarkdown,
   readCourseFile,

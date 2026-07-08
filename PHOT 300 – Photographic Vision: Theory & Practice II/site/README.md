@@ -32,10 +32,8 @@ Then open http://localhost:1313
 - **Custom styles:** `assets/_custom.scss` — typography and layout overrides
 - **Site structure:**
   - `/` — home (hero image only)
-  - `/course/` — overview, delivery, schedule, rules, student services
+  - `/course/` — overview, schedule, rules, student services, appointments
   - `/assignments/` — assignment briefs
-  - `/general/` — faculty and program info
-  - `/appointments/` — external booking link (Cal.com)
 
 Edit the Markdown files in the parent course folder, then run `npm run build` to regenerate the site.
 

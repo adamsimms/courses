@@ -111,6 +111,7 @@ export function runCourseGenerator({
   siteDir,
   assetSync = "full",
   includeReadingsPage = true,
+  includeDeliveryPage = true,
   assignments,
   buildOverviewMarkdown,
   extractPageMarkdown,
@@ -165,18 +166,20 @@ export function runCourseGenerator({
     })
   );
 
-  writePage(
-    contentDir,
-    "course/delivery.md",
-    {
-      title: "Delivery",
-      weight: 20,
-      ...seoMeta(courseSlug, "delivery"),
-      ...contentSitemap(0.7),
-      ...sourceMeta(courseFolderName, "README.md", "delivery"),
-    },
-    extractPageMarkdown("README.md", "Delivery", "Delivery")
-  );
+  if (includeDeliveryPage) {
+    writePage(
+      contentDir,
+      "course/delivery.md",
+      {
+        title: "Delivery",
+        weight: 20,
+        ...seoMeta(courseSlug, "delivery"),
+        ...contentSitemap(0.7),
+        ...sourceMeta(courseFolderName, "README.md", "delivery"),
+      },
+      extractPageMarkdown("README.md", "Delivery", "Delivery")
+    );
+  }
 
   writePage(
     contentDir,
@@ -253,42 +256,12 @@ export function runCourseGenerator({
     );
   }
 
-  writeSectionIndex(contentDir, "general/_index.md", "General Info", 30);
-
   writePage(
     contentDir,
-    "general/faculty-of-fine-arts.md",
-    {
-      title: "Faculty Of Fine Arts",
-      weight: 10,
-      ...seoMeta(courseSlug, "faculty-of-fine-arts"),
-      ...contentSitemap(0.5),
-    },
-    `# Faculty Of Fine Arts
-
-Message from the [Faculty of Fine Arts](https://www.concordia.ca/finearts.html) at Concordia University.`
-  );
-
-  writePage(
-    contentDir,
-    "general/photography-program.md",
-    {
-      title: "Photography Program",
-      weight: 20,
-      ...seoMeta(courseSlug, "photography-program"),
-      ...contentSitemap(0.5),
-    },
-    `# Photography Program
-
-[Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).`
-  );
-
-  writePage(
-    contentDir,
-    "appointments.md",
+    "course/appointments.md",
     {
       title: "Appointments",
-      weight: 50,
+      weight: 60,
       bookHref: "https://cal.com/adam-simms-ivi9mt/1-hour-meeting",
       ...appointmentsMeta,
     },

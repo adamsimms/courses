@@ -4,10 +4,6 @@
 
 ## Course Details
 
-**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
-
-**Teaching Assistant:** Sina Piryae
-
 - **Credits:** 6-credit course (26 weeks across two terms)
 - **Session:** Fall 2024 – Winter 2025 (September 3, 2024 – April 12, 2025)
 - **Time:** Tuesdays, 1:30–5:30 PM

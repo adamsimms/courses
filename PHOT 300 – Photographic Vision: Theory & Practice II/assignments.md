@@ -12,7 +12,7 @@ Students must respect their assigned presentation slots. Attendance at all criti
 
 ## Proposal (10%)
 
-**Due:** September 17 by midnight
+**Due:** Week 3 by midnight
 
 Students must submit a written proposal that details the goals and motivations of a research-creation project they plan to complete over the academic year. The proposal provides an opportunity to receive feedback from your peers and professor on the direction of your project and should include:
 
@@ -25,7 +25,7 @@ Students must submit a written proposal that details the goals and motivations o
 
 ## Mid-Term Presentation (10%)
 
-**Due:** October 22 and 29
+**Due:** Week 8 and Week 9
 
 Students are required to present their in-progress work for the purpose of receiving peer feedback. The work shown at the midterm critiques should reflect the student's efforts to address the challenges outlined in their project proposal and demonstrate progress toward resolving these issues. The presentation should include:
 
@@ -37,7 +37,7 @@ Students are required to present their in-progress work for the purpose of recei
 
 ## End-of-Term Presentation and Critique (20%)
 
-**Due:** November 19 and 26
+**Due:** Week 12 and Week 13
 
 Students are required to present their end-of-term project along with a succinct project statement for the purpose of receiving peer feedback. Students are expected to introduce their work and discuss the resolutions outlined in their project proposal.
 

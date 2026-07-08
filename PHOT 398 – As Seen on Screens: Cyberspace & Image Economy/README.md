@@ -4,10 +4,6 @@
 
 ## Course Details
 
-**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
-
-**Teaching Assistant:** Petrija Dos Santos
-
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
 - **Time:** Fridays, 1:30–5:30 PM Eastern Time

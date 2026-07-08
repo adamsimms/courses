@@ -4,10 +4,6 @@
 
 ## Course Details
 
-**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
-
-**Teaching Assistant:** Eve Marie Vitalité
-
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
 - **Time:** Wednesdays, 8:30 AM–12:30 PM

@@ -4,10 +4,6 @@
 
 ## Course Details
 
-**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
-
-**Teaching Assistant:** Michelle Caron-Pawlowsky
-
 - **Credits:** 6-credit course (26 weeks across two terms)
 - **Time:** Thursdays, 1:30–5:30 PM
 

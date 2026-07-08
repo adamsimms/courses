@@ -6,7 +6,7 @@
 
 ## Assignment #1: Inputs (30%)
 
-**Due:** Week 5 — February 12
+**Due:** Week 5
 
 This technical assignment will explore analog input methods available for digital image-making. Through the process of scanning analog source materials, you will learn and demonstrate the best practices for resolution, sharpening, and editing digital images while simultaneously considering final output constraints.
 
@@ -30,7 +30,7 @@ Send your layered files via [WeTransfer](https://wetransfer.com/) to the instruc
 
 ## Assignment #2: Printing (30%)
 
-**Due:** Week 8 — March 5
+**Due:** Week 8
 
 Now that you've learned to correct your images, it's time to become comfortable outputting your digital images to physical prints. The objective of this assignment is to establish printing workflows so that you can develop a strong sense of how images on a screen will translate to ink on paper.
 
@@ -50,7 +50,7 @@ Send your layered files via [WeTransfer](https://wetransfer.com/) to the instruc
 
 ## Assignment #3: Composite Triptych (30%)
 
-**Due:** Week 12 or Week 13 — April 2 or April 9 (presentation day)
+**Due:** Week 12 or Week 13 (presentation day)
 
 For this final assignment, create a photomontage triptych (3 images) that reflects your distinct voice as an image-maker and the thematic and formal concerns you have developed throughout the semester. This project will demonstrate your technical proficiency in Photoshop and your ability to create cohesive, meaningful visual narratives.
 
