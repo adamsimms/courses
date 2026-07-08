@@ -11,13 +11,6 @@
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
 - **Time:** Wednesdays, 8:30 AM–12:30 PM
-- **Location:** EV 5.709 SGW
-
-## Land Acknowledgement
-
-Concordia University is located on unceded Indigenous lands. The Kanien'kehá:ka Nation is recognized as the custodians of the lands and waters on which we gather today. Tiohtià:ke/Montréal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. We respect the continued connections with the past, present and future in our ongoing relationships with Indigenous and other peoples within the Montreal community.
-
-This territorial acknowledgement and resources were created by Concordia University's Indigenous Directions Leadership Group.
 
 ---
 
@@ -45,7 +38,7 @@ Students will produce a series of smaller projects that reflect advanced technic
 
 ### In-Person
 
-Classes will be held on campus at EV 5.709 SGW unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
+Classes will be held on campus unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
 
 ### Remote Classes
 

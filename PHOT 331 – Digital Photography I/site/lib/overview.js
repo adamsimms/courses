@@ -31,8 +31,6 @@ export function buildOverviewMarkdown() {
   const raw = readCourseFile("README.md");
   const courseDetails = extractSection(raw, "Course Details");
   const instructorBlock = courseDetails.replace(/\n- \*\*Credits[\s\S]*/m, "").trim();
-  const landAckRaw = extractSection(raw, "Land Acknowledgement");
-  const landAck = landAckRaw.replace(/\n\nThis territorial acknowledgement[\s\S]*/m, "").trim();
   const prerequisites = extractSection(raw, "Prerequisites");
   const courseDescription = extractSection(raw, "Description");
   const overviewBlock = extractSection(raw, "Overview");
@@ -43,14 +41,6 @@ export function buildOverviewMarkdown() {
   const markdown = `# Overview
 
 ${instructorBlock}
-
----
-
-${landAck}
-
-<small>This [territorial acknowledgement](http://www.concordia.ca/about/indigenous/territorial-acknowledgement.html) and resources were created by Concordia University's Indigenous Directions Leadership Group (2017).
-
-For more information, refer to [native land](https://www.native-land.ca/) and [whose land](https://www.whose.land/en/).</small>
 
 ---
 

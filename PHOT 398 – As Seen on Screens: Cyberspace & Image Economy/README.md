@@ -11,13 +11,7 @@
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
 - **Time:** Fridays, 1:30–5:30 PM Eastern Time
-- **Delivery:** Remote with optional in-person activities
-
-## Land Acknowledgement
-
-Concordia University is located on unceded Indigenous lands. The Kanien'kehá:ka Nation is recognized as the custodians of the lands and waters on which we gather today. Tiohtià:ke/Montréal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. We respect the continued connections with the past, present and future in our ongoing relationships with Indigenous and other peoples within the Montreal community.
-
-This territorial acknowledgement and resources were created by Concordia University's Indigenous Directions Leadership Group.
+- **Delivery:** Class meetings with optional in-person activities
 
 ---
 
@@ -38,7 +32,7 @@ This course will emphasize the students' understanding of the various possibilit
 
 ## Delivery
 
-This course will be taught remotely with optional in-person activities. To take this course, students must have access to the internet and a computer with the capacity to access Moodle (the learning platform used by Concordia); to participate in virtual class meetings via Zoom; and to conduct research remotely. Student access to campus will be subject to government regulations and University policy.
+This course includes optional in-person activities. To take this course, students must have access to the internet and a computer with the capacity to access Moodle (the learning platform used by Concordia); to participate in class meetings via Zoom; and to conduct research. Student access to campus will be subject to government regulations and University policy.
 
 ### Moodle
 
