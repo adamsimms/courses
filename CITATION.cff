@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these course materials, please cite them as below."
+type: dataset
+title: "Syllabi — Adam Simms"
+authors:
+  - family-names: Simms
+    given-names: Adam
+    email: hello@adamsimms.xyz
+    affiliation: "Concordia University"
+abstract: >-
+  Open syllabi and course materials for undergraduate photography courses
+  developed, designed, and taught by Adam Simms.
+license: CC-BY-4.0
+repository-code: "https://github.com/adamsimms/syllabi"
+url: "https://github.com/adamsimms/syllabi"
+date-released: "2026-07-01"
+keywords:
+  - syllabus
+  - open educational resources
+  - photography
+  - pedagogy
